@@ -28,3 +28,9 @@ Traducción automática local con correcciones y revisión de muestras;
 no tiene revisión humana completa ni prueba dentro de Bannerlord.
 La versión exacta de Affairs of Calradia no se pudo determinar con estos
 archivos. Otros textos del mod podrían estar en archivos no proporcionados.
+
+ACTUALIZACIÓN DEL REGISTRO
+El registro español usa la ruta SP/std_FriendsWithBenefits_strings.xml,
+siguiendo la estructura de la plantilla FR proporcionada por el autor.
+Si instalaste una edición anterior de este paquete, vuelve a extraerlo
+en la misma carpeta del mod y acepta reemplazar los dos archivos de SP.

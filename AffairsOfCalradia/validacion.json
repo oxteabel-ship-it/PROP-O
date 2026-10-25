@@ -26,5 +26,7 @@
   "language_id": "Español (LA)",
   "in_game_tested": false,
   "method": "Local machine translation, terminology corrections and sample review. Not fully human-proofread.",
-  "manually_reviewed_setting_labels": 219
+  "manually_reviewed_setting_labels": 219,
+  "language_file_path": "SP/std_FriendsWithBenefits_strings.xml",
+  "path_reference": "Author-provided FR/language_data.xml with FR/ prefix; differs from the earlier sibling-filename reference."
 }

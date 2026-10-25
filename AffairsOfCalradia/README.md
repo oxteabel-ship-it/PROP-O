@@ -28,3 +28,11 @@ No se ha ejecutado Bannerlord ni se conoce la versión exacta de Affairs of Calr
 `validacion.json` registra los controles y las huellas SHA-256 de los dos archivos de origen. `opciones_revisadas.json` guarda las traducciones revisadas de opciones y algunas descripciones para facilitar futuras actualizaciones.
 
 Para desinstalar, retira únicamente los archivos añadidos por este paquete en `Languages/SP` y restaura cualquier copia de seguridad de archivos que hubieras sustituido.
+
+## Ajuste según la plantilla FR del autor
+
+El usuario proporcionó la plantilla francesa original del mod. Su registro usa `FR/std_FriendsWithBenefits_strings_fre-FR.xml` aunque el README sitúa el registro dentro de la carpeta `FR`. Por ello nuestro registro español sigue esa convención específica del autor y usa `SP/std_FriendsWithBenefits_strings.xml`. Sustituye la referencia anterior de archivo hermano, tomada de un ejemplo de otro mod. El archivo español y sus 4,626 textos no cambiaron.
+
+La plantilla francesa contiene los mismos 4,626 IDs que el inglés proporcionado, en otro orden, y 4,436 textos son idénticos al inglés; no es una traducción francesa completa ni añade entradas que falten en nuestro archivo. No se incorporaron sus textos franceses a la traducción española.
+
+El nombre del archivo puede diferir entre idiomas siempre que coincida con el registro. El procesador francés de la plantilla no se copia al español. Esta corrección sigue el ejemplo del autor; la carga dentro del juego sigue pendiente de comprobar.
