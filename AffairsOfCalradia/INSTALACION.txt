@@ -1,0 +1,30 @@
+AFFAIRS OF CALRADIA — ESPAÑOL LATINOAMERICANO
+Para la familia de Bannerlord 1.4.x indicada por el usuario.
+
+INSTALACIÓN
+1. Cierra Bannerlord.
+2. Extrae este ZIP dentro de la carpeta del mod Affairs of Calradia,
+   la que contiene su archivo SubModule.xml, dentro de Modules.
+   El nombre interno de la carpeta puede ser distinto del título del mod.
+3. Acepta combinar la carpeta ModuleData. Deben quedar:
+   CarpetaDelMod/ModuleData/Languages/SP/language_data.xml
+   CarpetaDelMod/ModuleData/Languages/SP/std_FriendsWithBenefits_strings.xml
+4. Mantén activado el mod original y selecciona Español (LA) en el juego.
+   Reinicia el juego después de cambiar el idioma.
+
+No necesitas una casilla nueva en el launcher ni editar archivos.
+No reemplaces los archivos ingleses situados directamente en Languages.
+Si ya tienes una traducción dentro de SP, haz una copia antes de sustituirla.
+Si su language_data.xml registra otros XML, conserva también esos registros.
+
+DESINSTALACIÓN
+Retira solo los archivos de esta traducción que añadiste en Languages/SP.
+Si sustituiste archivos anteriores, restaura tu copia de seguridad.
+
+ALCANCE
+Incluye las 4,626 entradas del XML proporcionado por el usuario.
+Conserva los IDs, las variables, las etiquetas y 16 valores técnicos.
+Traducción automática local con correcciones y revisión de muestras;
+no tiene revisión humana completa ni prueba dentro de Bannerlord.
+La versión exacta de Affairs of Calradia no se pudo determinar con estos
+archivos. Otros textos del mod podrían estar en archivos no proporcionados.

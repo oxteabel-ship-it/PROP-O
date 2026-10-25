@@ -1,0 +1,30 @@
+{
+  "entries": 4626,
+  "technical_entries_preserved": [
+    "fwb_cfg_ambient_letter_general_sound_event_path",
+    "fwb_cfg_ambient_letter_spouse_sound_event_path",
+    "fwb_cfg_ambient_letter_lover_sound_event_path",
+    "fwb_cfg_ambient_letter_friend_sound_event_path",
+    "fwb_cfg_ambient_letter_rival_sound_event_path",
+    "fwb_cfg_ambient_letter_jealous_husband_sound_event_path",
+    "fwb_cfg_camp_event_icon_id",
+    "fwb_cfg_camp_event_sound_event_path",
+    "fwb_cfg_sea_event_icon_id",
+    "fwb_cfg_sea_event_sound_event_path",
+    "fwb_cfg_ambient_letter_general_icon_id",
+    "fwb_cfg_ambient_letter_spouse_icon_id",
+    "fwb_cfg_ambient_letter_lover_icon_id",
+    "fwb_cfg_ambient_letter_friend_icon_id",
+    "fwb_cfg_ambient_letter_rival_icon_id",
+    "fwb_cfg_ambient_letter_jealous_husband_icon_id"
+  ],
+  "source_sha256": "2ce4f97329f16a2e4832b98cec35fcb014fd0d38dbcf5b01ed0bd04c3d267ca8",
+  "metadata_source_sha256": "dfe680ad6ebbfcfb6e32a02619e0b7e6c4c96cc1683e560bedc89b72e8a45844",
+  "xml_valid": true,
+  "archive_integrity": true,
+  "ids_order_variables_markup_preserved": true,
+  "language_id": "Español (LA)",
+  "in_game_tested": false,
+  "method": "Local machine translation, terminology corrections and sample review. Not fully human-proofread.",
+  "manually_reviewed_setting_labels": 219
+}

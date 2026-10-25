@@ -30,3 +30,7 @@ Los XML se pueden analizar; el identificador de idioma coincide; las rutas inter
 La traducción corresponde únicamente al archivo proporcionado. No se ha comprobado si faltan otros archivos de localización del mod.
 
 Para futuras traducciones, consultar [la guía y sus fuentes](GUIA_TRADUCCIONES_BANNERLORD.md).
+
+## Otras traducciones
+
+- [Affairs of Calradia — Español (LA), descarga e instalación](AffairsOfCalradia/README.md).
