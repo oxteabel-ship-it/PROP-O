@@ -69,7 +69,7 @@ Preservar los controles y el anidamiento de los condicionales, por ejemplo:
 {?NUMBER_OF_DAYS.PLURAL_FORM}días{?}día{\?}
 ```
 
-No traducir `{newline}`, etiquetas de formato, nombres de atributos ni rutas internas. Conservar las secuencias de escape. Dentro de atributos XML, escapar correctamente `&`, `<`, `>` y las comillas. Los saltos de línea reales dentro de atributos se guardan como `&#10;` y las tabulaciones como `&#9;`, para evitar que el analizador los normalice a espacios.
+No traducir `{newline}`, etiquetas de formato, nombres de atributos ni rutas internas. Proteger también las etiquetas de animación de diálogos como `[if:convo_happy]` y `[ib:hip]`, conservando su contenido y orden. Conservar las secuencias de escape. Dentro de atributos XML, escapar correctamente `&`, `<`, `>` y las comillas. Los saltos de línea reales dentro de atributos se guardan como `&#10;` y las tabulaciones como `&#9;`, para evitar que el analizador los normalice a espacios.
 
 Proteger un token no garantiza una buena traducción: revisar el género y los artículos alrededor de nombres dinámicos, singular/plural y las alternativas condicionales.
 
@@ -113,7 +113,9 @@ Guardar el origen y la versión del archivo que se tradujo. Evitar mezclar caden
 
 - XML analizable y codificación UTF-8.
 - IDs y contenido completo comparados con el origen proporcionado.
-- Conservación de variables, controles, formato y saltos de línea.
+- Conservación de variables, controles, formato y saltos de línea, incluidas las etiquetas de animación entre corchetes.
+- Ausencia de caracteres de traducción desconocida `⁇` o de sustitución `�`; comprobar también símbolos como `×` y `~`.
+- Conservación de valores numéricos y signos de bonificaciones y penalizaciones. Una traducción puede conservar todas sus variables y aun así invertir el sentido de una regla al perder un signo.
 - Coincidencia de ID de idioma entre el registro y las cadenas.
 - Existencia de todos los archivos registrados, según la convención elegida.
 - ZIP íntegro, sin carpetas duplicadas y con instrucciones inequívocas.
@@ -148,3 +150,7 @@ Enlazar al mod original, acreditar su autoría y comprobar sus condiciones antes
 - [Esquema comunitario ModuleLanguageData.xsd](https://github.com/BUTR/Bannerlord.XmlSchemas/blob/master/ModuleLanguageData.xsd): estructura y atributos del registro.
 
 No se descargaron ni ejecutaron mods desde Nexus. Las fuentes sirven para comprobar convenciones y ejemplos; no equivalen a una prueba en una instalación real del juego.
+
+## Evidencia posterior del propio mod
+
+El paquete portugués de Bellum Civile aportado por el usuario utiliza `BR/strings_BR.xml` en su registro. Nuestra edición española sigue ahora el patrón `SP/strings_es-419.xml`. El paquete no contiene `SubModule.xml` y su cobertura difiere de la del inglés proporcionado. Ver el [informe de revisión](REVISION_BELLUM_PT_BR.md). El archivo de una traducción de terceros debe inspeccionarse antes de utilizarlo como referencia: en este caso su registro portugués y su etiqueta de idioma English no coincidían.

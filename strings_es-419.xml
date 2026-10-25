@@ -79,105 +79,105 @@
     <!-- MCM Settings -->
     <string id="BC_MCM_DisplayName" text="Bellum Civile" />
     <string id="BC_MCM_Group_Rebellions" text="Rebeliones y guerras civiles" />
-    <string id="BC_MCM_Group_CourtPolitics" text="Política del Tribunal" />
+    <string id="BC_MCM_Group_CourtPolitics" text="Política de la corte" />
     <string id="BC_MCM_Group_War" text="Guerra y paz" />
-    <string id="BC_MCM_Group_WarAftermath" text="Secuelas de guerra" />
+    <string id="BC_MCM_Group_WarAftermath" text="Consecuencias de la guerra" />
     <string id="BC_MCM_Group_Succession" text="Sucesión" />
     <string id="BC_MCM_Group_FeudalTitles" text="Títulos feudales" />
-    <string id="BC_MCM_TitleStylePreset" text="Título Terminología Preset" />
-    <string id="BC_MCM_TitleStylePreset_Hint" text="Selecciona el rango cultural y la terminología de título cargado desde bellum ⁇ title ⁇ styles ⁇ .xml. El preajuste seleccionado se aplica después del archivo de jerarquía principal, mientras que los parches de compatibilidad siguen aplicándose al final. Se descubren archivos preestablecidos adicionales cuando se inicia el juego. Predeterminado: Anglificado." />
-    <string id="BC_MCM_UseSovereignRealmNames" text="Usar títulos soberanos como nombres de reino" />
-    <string id="BC_MCM_UseSovereignRealmNames_Hint" text="Cuando está habilitado, los nombres de reino siguen el título soberano actual. Cuando está desactivado, los reinos configurados y fundados por el título de Bellum conservan su identidad mientras se actualiza su rango. Los nombres de reino desconocidos permanecen sin cambios a menos que estén configurados. Los ajustes preestablecidos de título cultural se aplican en ambos modos. Los nombres temporales de rebelión y enemistad no han cambiado. Predeterminado: desactivado." />
+    <string id="BC_MCM_TitleStylePreset" text="Terminología predefinida de títulos" />
+    <string id="BC_MCM_TitleStylePreset_Hint" text="Selecciona la terminología cultural de rangos y títulos territoriales que se carga desde bellum_title_styles_*.xml. El preajuste seleccionado se aplica después del archivo principal de jerarquía; los parches de compatibilidad se siguen aplicando al final. Los archivos adicionales de preajustes se detectan al iniciar el juego. Valor predeterminado: Adaptado al inglés." />
+    <string id="BC_MCM_UseSovereignRealmNames" text="Usar los títulos soberanos como nombres de los reinos" />
+    <string id="BC_MCM_UseSovereignRealmNames_Hint" text="Al activar esta opción, los nombres de los reinos siguen el título soberano actual. Al desactivarla, los reinos configurados y los fundados mediante títulos de Bellum conservan su identidad mientras se actualiza su rango. Los nombres de reinos desconocidos no cambian a menos que se configuren. Los preajustes de títulos culturales se aplican en ambos modos. Los nombres temporales de las rebeliones y las disputas no cambian. Valor predeterminado: desactivado." />
     <string id="BC_TitleStylePreset_Anglicized" text="Adaptado al inglés" />
     <string id="BC_TitleStylePreset_Immersive" text="Inmersivo" />
     <string id="BC_TitleStylePreset_Embedded" text="Valores predeterminados integrados" />
-    <string id="BC_MCM_Group_ArmyLoyalty" text="Lealtad del Ejército" />
+    <string id="BC_MCM_Group_ArmyLoyalty" text="Lealtad del ejército" />
     <string id="BC_MCM_Group_Marriage" text="Matrimonio" />
     <string id="BC_MCM_Group_Relationships" text="Relaciones" />
     <string id="BC_MCM_Group_Economy" text="Economía política" />
     <string id="BC_MCM_Group_Debugging" text="Depuración" />
     <string id="BC_MCM_ShowDebug" text="Mostrar mensajes de depuración en el juego" />
-    <string id="BC_MCM_ShowDebug_Hint" text="Muestra los rastros de depuración Bellum Civile en el feed de mensajes del juego cuando esos rastros solicitan una salida visible. Predeterminado: desactivado." />
+    <string id="BC_MCM_ShowDebug_Hint" text="Muestra las trazas de depuración de Bellum Civile en los mensajes del juego cuando esas trazas solicitan una salida visible. Valor predeterminado: desactivado." />
     <string id="BC_MCM_RebellionThreshold" text="Umbral de intención rebelde" />
-    <string id="BC_MCM_RebellionThreshold_Hint" text="La intención necesaria para formar o unirse a una conspiración rebelde. Aumentar este valor reduce la inestabilidad de la conspiración; disminuirlo aumenta la inestabilidad. Los líderes existentes se disuelven y los miembros reconsideran por debajo de la mitad de este umbral. No controla las coaliciones judiciales, los desafíos de herederos, las disputas electorales o las disputas privadas. Por defecto Bellum: 100." />
-    <string id="BC_MCM_DiscontentGain" text="Ganancia de intención rebelde" />
-    <string id="BC_MCM_DiscontentGain_Hint" text="Base ganancia diaria, mientras que una facción rebelde es lo suficientemente fuerte como para presionar la corona. Valor predeterminado: 2." />
-    <string id="BC_MCM_DiscontentDecay" text="Decadencia de intención rebelde" />
-    <string id="BC_MCM_DiscontentDecay_Hint" text="Pérdida diaria cuando una facción rebelde es demasiado débil para mantener la presión sobre la corona. Valor predeterminado: 1." />
-    <string id="BC_MCM_RivalryThreshold" text="Umbral de rivalidad del líder rebelde" />
-    <string id="BC_MCM_RivalryThreshold_Hint" text="Relación mínima requerida para unirse o permanecer con un líder rebelde motivado por una causa. Los valores más negativos hacen que los señores toleren peores rivales. Predeterminado: -50." />
-    <string id="BC_MCM_EnableWarPeaceLogicRevamp" text="Habilitar la renovación de lógica de guerra y paz" />
-    <string id="BC_MCM_EnableWarPeaceLogicRevamp_Hint" text="Cuando está habilitado, Bellum usa su Voluntad de Guerra, clasificación de objetivos, Puntuación de Guerra y sistemas de paz parley para controlar la guerra y la política de paz. Deshabilite esto para devolver las propuestas de guerra y paz y vote a favor del juego base Bannerlord. Predeterminado: Activado." />
-    <string id="BC_MCM_EnableWarScoreMapWidget" text="Habilitar widget de puntuación de guerra de mapa de campaña" />
-    <string id="BC_MCM_EnableWarScoreMapWidget_Hint" text="Muestra todos los conflictos activos que involucran el reino actual del jugador en la parte superior derecha del mapa de campaña, utilizando la bandera del reino opuesto y el Bellum Puntuación de guerra. Esto incluye guerras extranjeras, guerras civiles y disputas de reclamación en las que el jugador es un participante. Requiere el reinicio de la lógica de guerra y paz. Predeterminado: Activado." />
-    <string id="BC_MCM_EnableClientStateMapWidget" text="Habilitar el widget de estado del cliente del mapa de campaña" />
-    <string id="BC_MCM_EnableClientStateMapWidget_Hint" text="Cuando el jugador gobierna un reino soberano, muestra sus reinos clientes en la parte superior izquierda del mapa de campaña con su deseo de libertad actual. Requiere el reinicio de la lógica de guerra y paz. Predeterminado: Activado." />
-    <string id="BC_MCM_WarDurationReluctance" text="Período de Reluctancia de Duración de la Guerra" />
-    <string id="BC_MCM_WarDurationReluctance_Hint" text="Días durante los cuales la renuencia total a la paz de -100 decae a 0. El entusiasmo por debajo de 10 suaviza esta penalización. Después de este período, el entusiasmo por debajo de 10 otorga +30 de apoyo a la paz, y cero entusiasmo permite que un oponente interno agotado considere conceder más de 10 puntos de guerra. Esta configuración nunca bloquea las propuestas de paz. Predeterminado: 100 días." />
-    <string id="BC_MCM_MinimumPeaceBeforeRenewedWar" text="Mínimo de paz antes de una guerra renovada" />
-    <string id="BC_MCM_MinimumPeaceBeforeRenewedWar_Hint" text="El número mínimo de días que dos reinos deben permanecer en paz antes de que la IA de Bellum considere otra ofensiva contra el mismo reino. Un valor de 0 inhabilita este período de espera. Las guerras de liberación de clientes siguen estando exentas. Valor predeterminado: 20." />
+    <string id="BC_MCM_RebellionThreshold_Hint" text="Intención necesaria para formar una conspiración rebelde o unirse a ella. Aumentar este valor reduce la inestabilidad por conspiraciones; reducirlo la aumenta. Por debajo de la mitad de este umbral, los líderes existentes disuelven sus conspiraciones y los miembros reconsideran su participación. No controla las coaliciones de la corte, los desafíos de herederos, las disputas electorales ni las disputas privadas. Valor predeterminado de Bellum: 100." />
+    <string id="BC_MCM_DiscontentGain" text="Aumento de la intención rebelde" />
+    <string id="BC_MCM_DiscontentGain_Hint" text="Aumento diario base mientras una facción rebelde tenga fuerza suficiente para presionar a la Corona. Valor predeterminado: 2." />
+    <string id="BC_MCM_DiscontentDecay" text="Reducción de la intención rebelde" />
+    <string id="BC_MCM_DiscontentDecay_Hint" text="Pérdida diaria cuando una facción rebelde es demasiado débil para mantener la presión sobre la Corona. Valor predeterminado: 1." />
+    <string id="BC_MCM_RivalryThreshold" text="Umbral de rivalidad con el líder rebelde" />
+    <string id="BC_MCM_RivalryThreshold_Hint" text="Relación mínima necesaria para unirse a un líder rebelde motivado por una causa o seguir a su lado. Los valores más negativos hacen que los nobles toleren rivalidades más intensas. Valor predeterminado: -50." />
+    <string id="BC_MCM_EnableWarPeaceLogicRevamp" text="Activar el sistema renovado de guerra y paz" />
+    <string id="BC_MCM_EnableWarPeaceLogicRevamp_Hint" text="Al activar esta opción, Bellum utiliza sus sistemas de voluntad bélica, clasificación de objetivos, puntuación de guerra y negociación de paz para controlar la política de guerra y paz. Desactívala para devolver las propuestas de guerra y paz y el apoyo en las votaciones al sistema del juego base. Valor predeterminado: activado." />
+    <string id="BC_MCM_EnableWarScoreMapWidget" text="Mostrar la puntuación de guerra en el mapa de campaña" />
+    <string id="BC_MCM_EnableWarScoreMapWidget_Hint" text="Muestra todos los conflictos activos en los que participa el reino actual del jugador en la esquina superior derecha del mapa de campaña, con el estandarte del reino contrario y la puntuación de guerra de Bellum. Incluye guerras extranjeras, guerras civiles y disputas por reclamaciones en las que participe el jugador. Requiere el sistema renovado de guerra y paz. Valor predeterminado: activado." />
+    <string id="BC_MCM_EnableClientStateMapWidget" text="Mostrar los reinos dependientes en el mapa de campaña" />
+    <string id="BC_MCM_EnableClientStateMapWidget_Hint" text="Cuando el jugador gobierna un reino soberano con reinos dependientes, muestra estos últimos y su deseo de independencia actual en la esquina superior izquierda del mapa de campaña. Requiere el sistema renovado de guerra y paz. Valor predeterminado: activado." />
+    <string id="BC_MCM_WarDurationReluctance" text="Duración de la resistencia inicial a la paz" />
+    <string id="BC_MCM_WarDurationReluctance_Hint" text="Días durante los cuales la resistencia inicial a la paz disminuye de -100 a 0. Un entusiasmo inferior a 10 suaviza esta penalización. Tras este período, un entusiasmo inferior a 10 otorga +30 de apoyo a la paz, y un entusiasmo nulo permite que un oponente interno agotado considere ceder con una puntuación de guerra superior a 10. Esta opción nunca bloquea las propuestas de paz. Valor predeterminado: 100 días." />
+    <string id="BC_MCM_MinimumPeaceBeforeRenewedWar" text="Paz mínima antes de reanudar la guerra" />
+    <string id="BC_MCM_MinimumPeaceBeforeRenewedWar_Hint" text="Cantidad mínima de días que dos reinos deben permanecer en paz antes de que la IA de Bellum considere otra ofensiva contra el mismo reino. Un valor de 0 desactiva este período de espera. Las guerras de independencia de reinos dependientes están exentas. Valor predeterminado: 20." />
     <string id="BC_Parley_Reason_LengthyPact" text="Este pacto nos ataría las manos demasiado tiempo." />
     <string id="BC_Parley_Reason_PactRecovery" text="Nuestro reino necesita tiempo para recuperarse." />
-    <string id="BC_MCM_TreatyReparationsPerWarScore" text="Reparaciones por Puntuación de guerra" />
-    <string id="BC_MCM_TreatyReparationsPerWarScore_Hint" text="Los denarios pagaron como reparaciones inmediatas por cada Partida de guerra gastada en el término del tratado. Un valor de 0 inhabilita las reparaciones. Predeterminado: 5.000 denarios por Puntuación de guerra." />
-    <string id="BC_MCM_TreatyTributePerWarScore" text="Tributo Diario por cada Partida de Guerra" />
-    <string id="BC_MCM_TreatyTributePerWarScore_Hint" text="Los denarios pagaban cada día 100 días por cada Puntuación de Guerra gastada en el término del tratado. Un valor de 0 deshabilita el tributo. Predeterminado: 250 denarios por día por Puntuación de guerra." />
-    <string id="BC_MCM_WarWillInitial" text="Guerra inicial Will" />
-    <string id="BC_MCM_WarWillInitial_Hint" text="Se asignará a los clanes cuando Bellum los evalúe por primera vez. Valor predeterminado: 45." />
-    <string id="BC_MCM_WarWillClanInterval" text="Intervalo de evaluación de clan" />
-    <string id="BC_MCM_WarWillClanInterval_Hint" text="Días entre cada clan refrescando sus objetivos extranjeros preferidos. La guerra misma seguirá cambiando a diario. Los valores más altos reducen el trabajo de puntuación y la reacción política lenta. Valor predeterminado: 7." />
-    <string id="BC_MCM_WarWillMemoryDays" text="La guerra provocará memoria" />
-    <string id="BC_MCM_WarWillMemoryDays_Hint" text="Días recordados Las presiones de los eventos de Voluntad bélica siguen siendo visibles en los informes de depuración y la lógica del futuro tratado. Valor predeterminado: 84." />
-    <string id="BC_MCM_WarWillDeclareThreshold" text="Umbral de propuesta de guerra" />
-    <string id="BC_MCM_WarWillDeclareThreshold_Hint" text="¿Necesita un clan antes de que pueda proponer una guerra a través de la renovación? Predeterminado: 75." />
-    <string id="BC_MCM_WarWillPeaceThreshold" text="Umbral de propuesta de paz" />
-    <string id="BC_MCM_WarWillPeaceThreshold_Hint" text="Un clan debe tener Voluntad de Guerra por debajo de 10 antes de proponer automáticamente la paz. La aceptación también depende de la duración de la campaña, la influencia militar y los términos del tratado." />
-    <string id="BC_MCM_WarWillMutualWhitePeaceThreshold" text="Umbral de Paz Blanca Mutua" />
-    <string id="BC_MCM_WarWillMutualWhitePeaceThreshold_Hint" text="Ambas partes deben tener voluntad de guerra ponderada por poder en o por debajo de 10, puntuación de guerra absoluta en o por debajo de 10, y suficiente voluntad para establecerse antes de que se pueda considerar la paz blanca mutua automática." />
-    <string id="BC_MCM_WarWillAttackerShock" text="Shock de inicio de guerra atacante" />
-    <string id="BC_MCM_WarWillAttackerShock_Hint" text="La voluntad de guerra de base ganada por clanes del lado que declara la guerra antes que la ideología y los modificadores de rasgos. Predeterminado: 10." />
-    <string id="BC_MCM_WarWillDefenderShock" text="Impacto inicial de la guerra para el defensor" />
-    <string id="BC_MCM_WarWillDefenderShock_Hint" text="La voluntad de guerra básica ganada por los clanes cuando su reino es atacado antes que la ideología y los modificadores de rasgos. Predeterminado: 25." />
-    <string id="BC_MCM_WarWillExtraWarDrain" text="Extra Conflict (en inglés)" />
-    <string id="BC_MCM_WarWillExtraWarDrain_Hint" text="La guerra diaria adicional decaerá por conflicto simultáneo ponderado, antes de los modificadores de ideología. Las guerras extranjeras después de la primera cuentan una vez, las guerras civiles cuentan dos veces, y las peleas activas cuentan como medio conflicto. Valor predeterminado: 0.50." />
-    <string id="BC_MCM_WarWillMultipleFrontShock" text="La guerra de múltiples frentes chocará" />
-    <string id="BC_MCM_WarWillMultipleFrontShock_Hint" text="La guerra se perderá cuando un reino entra en otro conflicto mientras ya está agobiado por la guerra o las luchas internas, por conflicto existente ponderado. Los militaristas sufren menos y los populistas sufren más. La pérdida total de una sola vez se limita a 30. Predeterminado: 10." />
-    <string id="BC_MCM_WarTargetMinimumScore" text="Puntuación mínima de objetivo visible" />
-    <string id="BC_MCM_WarTargetMinimumScore_Hint" text="Puntuación mínima para que un reino aparezca en la lista de objetivos de guerra clasificados de un clan. Predeterminado: 10." />
-    <string id="BC_MCM_WarTargetLocalLand" text="Peso de la frontera terrestre local" />
-    <string id="BC_MCM_WarTargetLocalLand_Hint" text="Puntuación de objetivo añadida cuando el clan personalmente tiene tierras que bordean el reino objetivo por tierra. Predeterminado: 25." />
-    <string id="BC_MCM_WarTargetLocalMaritime" text="Peso de la frontera marítima local" />
-    <string id="BC_MCM_WarTargetLocalMaritime_Hint" text="Puntaje de destino añadido cuando el clan mantiene personalmente puertos cerca del reino objetivo por mar. Requiere sistemas War Sails/Naval DLC. Valor predeterminado: 20." />
-    <string id="BC_MCM_WarTargetRealmLand" text="Tierra del Reino Frontier Peso" />
-    <string id="BC_MCM_WarTargetRealmLand_Hint" text="Puntuación de objetivo añadida cuando el reino bordea al objetivo por tierra, pero este clan no tiene personalmente la frontera. Valor predeterminado: 8." />
-    <string id="BC_MCM_WarTargetRealmMaritime" text="Peso de la ruta marítima" />
-    <string id="BC_MCM_WarTargetRealmMaritime_Hint" text="Puntuación de destino añadida cuando el reino tiene una ruta marítima hacia el objetivo, pero este clan no tiene personalmente los puertos relevantes. Predeterminado: 6." />
-    <string id="BC_MCM_WarTargetStrongClaim" text="Fuerte reclamo de peso objetivo" />
-    <string id="BC_MCM_WarTargetStrongClaim_Hint" text="Puntaje de destino añadido cuando un clan tiene una fuerte reclamación de un título en poder del reino objetivo. Valor predeterminado: 45." />
-    <string id="BC_MCM_WarTargetWeakClaim" text="Peso objetivo de reclamación débil" />
-    <string id="BC_MCM_WarTargetWeakClaim_Hint" text="Puntaje de objetivo añadido cuando un clan tiene un reclamo débil de un título en poder del reino objetivo. Predeterminado: 25." />
-    <string id="BC_MCM_WarTargetDeJureClaim" text="De Jure Peso objetivo de ocupación" />
-    <string id="BC_MCM_WarTargetDeJureClaim_Hint" text="Puntaje de objetivo añadido cuando el reino objetivo ocupa un título legalmente propiedad del clan evaluador. Predeterminado: 35." />
-    <string id="BC_MCM_WarTargetAlliancePenalty" text="Pena de objetivo de alianza" />
-    <string id="BC_MCM_WarTargetAlliancePenalty_Hint" text="Golpe de puntuación objetivo contra reinos con una alianza formal. Predeterminado: -50." />
-    <string id="BC_MCM_WarTargetTradePenalty" text="Acuerdos Comerciales Meta Penalidad" />
-    <string id="BC_MCM_WarTargetTradePenalty_Hint" text="Golpe de puntuación objetivo contra reinos con un acuerdo comercial. Valor predeterminado: -8." />
-    <string id="BC_MCM_WarTargetMarriagePenalty" text="Pena de matrimonio extranjero" />
-    <string id="BC_MCM_WarTargetMarriagePenalty_Hint" text="Pena de puntuación objetivo cuando el clan evaluador tiene lazos matrimoniales dentro del reino objetivo. Predeterminado: -10." />
-    <string id="BC_MCM_WarTargetRulingMarriagePenalty" text="Sanción de lazo matrimonial" />
-    <string id="BC_MCM_WarTargetRulingMarriagePenalty_Hint" text="Golpe de puntuación objetivo cuando el clan evaluador tiene vínculos matrimoniales con el clan gobernante del reino objetivo. Predeterminado: -15." />
-    <string id="BC_MCM_WarWillBattleMultiplier" text="Multiplicador de choque de batalla" />
-    <string id="BC_MCM_WarWillBattleMultiplier_Hint" text="Multiplicador aplicado a los choques de voluntad de guerra de victorias de batalla, derrotas de batalla y muertes nobles en batalla. Valor predeterminado: 1." />
-    <string id="BC_MCM_WarWillRaidMultiplier" text="Multiplicador de choque raid" />
-    <string id="BC_MCM_WarWillRaidMultiplier_Hint" text="Multiplicador aplicado a los choques de Voluntad bélica de las incursiones. Valor predeterminado: 1." />
-    <string id="BC_MCM_WarWillSettlementMultiplier" text="Multiplicador de choque de asentamiento" />
-    <string id="BC_MCM_WarWillSettlementMultiplier_Hint" text="Multiplicador aplicado a la voluntad de guerra debido a pérdidas de asentamientos, capturas y objetivos de reclamación alcanzados. Valor predeterminado: 1." />
-    <string id="BC_MCM_WarWillCaptivityMultiplier" text="Multiplicador de choque de cautividad" />
-    <string id="BC_MCM_WarWillCaptivityMultiplier_Hint" text="Multiplicador aplicado a los golpes de voluntad de guerra de los nobles, herederos y gobernantes capturados. Valor predeterminado: 1." />
-    <string id="BC_MCM_RetainedPrisonerDungeonEscape" text="Prisionero retenido Dungeon Escape Chance" />
-    <string id="BC_MCM_RetainedPrisonerDungeonEscape_Hint" text="Base diaria de escape para los nobles retenidos después de un tratado de paz de Bellum, en una mazmorra de asentamiento o una parte que se queda en un asentamiento. El juego base 50% de reducción jugador-captor y beneficios relevantes todavía se aplican. El juego base normalmente libera nobles en paz. Valores valor predeterminado: Bellum: 1%; juego base: 4% antes de los modificadores." />
-    <string id="BC_MCM_RetainedPrisonerMobileEscape" text="Prisionero retenido Mobile Escape Chance" />
-    <string id="BC_MCM_RetainedPrisonerMobileEscape_Hint" text="Base diaria de escape para los nobles retenidos después de un tratado de paz de Bellum, en una grupo itinerante. El juego base 50% de reducción jugador-captor y beneficios relevantes todavía se aplican. El juego base normalmente libera nobles en paz. Valores valor predeterminado: Bellum: 3%; juego base: 8-20% ddependiendo de los miembros sanos del grupo, antes de los modificadores." />
+    <string id="BC_MCM_TreatyReparationsPerWarScore" text="Reparaciones por punto de guerra" />
+    <string id="BC_MCM_TreatyReparationsPerWarScore_Hint" text="Denares pagados como reparaciones inmediatas por cada punto de guerra gastado en esa condición del tratado. Un valor de 0 desactiva las reparaciones. Valor predeterminado: 5,000 denares por punto de guerra." />
+    <string id="BC_MCM_TreatyTributePerWarScore" text="Tributo diario por punto de guerra" />
+    <string id="BC_MCM_TreatyTributePerWarScore_Hint" text="Denares pagados cada día durante 100 días por cada punto de guerra gastado en esa condición del tratado. Un valor de 0 desactiva el tributo. Valor predeterminado: 250 denares diarios por punto de guerra." />
+    <string id="BC_MCM_WarWillInitial" text="Voluntad bélica inicial" />
+    <string id="BC_MCM_WarWillInitial_Hint" text="Voluntad bélica inicial asignada a los clanes cuando Bellum los evalúa por primera vez. Valor predeterminado: 45." />
+    <string id="BC_MCM_WarWillClanInterval" text="Intervalo de evaluación de los clanes" />
+    <string id="BC_MCM_WarWillClanInterval_Hint" text="Días entre las actualizaciones de los objetivos extranjeros preferidos de cada clan. La voluntad bélica sigue cambiando a diario. Los valores más altos reducen el trabajo de evaluación de objetivos y ralentizan la reacción política. Valor predeterminado: 7." />
+    <string id="BC_MCM_WarWillMemoryDays" text="Duración del recuerdo de eventos de voluntad bélica" />
+    <string id="BC_MCM_WarWillMemoryDays_Hint" text="Días durante los que las presiones de eventos de voluntad bélica recordados permanecen visibles en los informes de depuración y en la lógica futura de tratados. Valor predeterminado: 84." />
+    <string id="BC_MCM_WarWillDeclareThreshold" text="Umbral para proponer una guerra" />
+    <string id="BC_MCM_WarWillDeclareThreshold_Hint" text="Voluntad bélica mínima que necesita un clan para proponer una guerra mediante el sistema renovado. Valor predeterminado: 75." />
+    <string id="BC_MCM_WarWillPeaceThreshold" text="Umbral para proponer la paz" />
+    <string id="BC_MCM_WarWillPeaceThreshold_Hint" text="Un clan debe tener una voluntad bélica inferior a 10 para proponer la paz automáticamente. La aceptación también depende de la duración de la campaña, la ventaja militar y las condiciones del tratado." />
+    <string id="BC_MCM_WarWillMutualWhitePeaceThreshold" text="Umbral de paz mutua sin condiciones" />
+    <string id="BC_MCM_WarWillMutualWhitePeaceThreshold_Hint" text="Para considerar una paz mutua automática sin condiciones, ambos bandos deben tener una voluntad bélica ponderada por su poder igual o inferior a 10, una puntuación de guerra absoluta igual o inferior a 10 y suficiente disposición a llegar a un acuerdo." />
+    <string id="BC_MCM_WarWillAttackerShock" text="Impacto inicial de la guerra en el atacante" />
+    <string id="BC_MCM_WarWillAttackerShock_Hint" text="Voluntad bélica base que ganan los clanes del bando que declara la guerra, antes de aplicar modificadores de ideología y rasgos. Valor predeterminado: 10." />
+    <string id="BC_MCM_WarWillDefenderShock" text="Impacto inicial de la guerra en el defensor" />
+    <string id="BC_MCM_WarWillDefenderShock_Hint" text="Voluntad bélica base que ganan los clanes cuando su reino es atacado, antes de aplicar modificadores de ideología y rasgos. Valor predeterminado: 25." />
+    <string id="BC_MCM_WarWillExtraWarDrain" text="Desgaste diario por conflictos adicionales" />
+    <string id="BC_MCM_WarWillExtraWarDrain_Hint" text="Reducción diaria adicional de voluntad bélica por cada conflicto simultáneo ponderado, antes de los modificadores de ideología. Las guerras extranjeras posteriores a la primera cuentan como un conflicto, las guerras civiles cuentan como dos y las disputas activas como medio conflicto. Valor predeterminado: 0.50." />
+    <string id="BC_MCM_WarWillMultipleFrontShock" text="Impacto de múltiples frentes en la voluntad bélica" />
+    <string id="BC_MCM_WarWillMultipleFrontShock_Hint" text="Voluntad bélica que se pierde cuando un reino entra en otro conflicto mientras ya soporta una guerra o luchas internas, por cada conflicto existente ponderado. Los militaristas sufren menos y los populistas más. La pérdida total de una sola vez está limitada a 30. Valor predeterminado: 10." />
+    <string id="BC_MCM_WarTargetMinimumScore" text="Puntuación mínima para mostrar objetivos" />
+    <string id="BC_MCM_WarTargetMinimumScore_Hint" text="Puntuación mínima para que un reino aparezca en la lista de objetivos de guerra de un clan, ordenada por prioridad. Valor predeterminado: 10." />
+    <string id="BC_MCM_WarTargetLocalLand" text="Peso de las fronteras terrestres del clan" />
+    <string id="BC_MCM_WarTargetLocalLand_Hint" text="Puntuación añadida al objetivo cuando el clan posee directamente tierras con una frontera terrestre con el reino objetivo. Valor predeterminado: 25." />
+    <string id="BC_MCM_WarTargetLocalMaritime" text="Peso de las fronteras marítimas del clan" />
+    <string id="BC_MCM_WarTargetLocalMaritime_Hint" text="Puntuación añadida al objetivo cuando el clan posee directamente puertos cercanos al reino objetivo por mar. Requiere los sistemas navales del DLC War Sails. Valor predeterminado: 20." />
+    <string id="BC_MCM_WarTargetRealmLand" text="Peso de las fronteras terrestres del reino" />
+    <string id="BC_MCM_WarTargetRealmLand_Hint" text="Puntuación añadida al objetivo cuando el reino comparte una frontera terrestre con él, pero el clan no posee directamente esa frontera. Valor predeterminado: 8." />
+    <string id="BC_MCM_WarTargetRealmMaritime" text="Peso de las rutas marítimas del reino" />
+    <string id="BC_MCM_WarTargetRealmMaritime_Hint" text="Puntuación añadida al objetivo cuando el reino tiene una ruta marítima hacia él, pero el clan no posee directamente los puertos correspondientes. Valor predeterminado: 6." />
+    <string id="BC_MCM_WarTargetStrongClaim" text="Peso de las reclamaciones fuertes" />
+    <string id="BC_MCM_WarTargetStrongClaim_Hint" text="Puntuación añadida al objetivo cuando un clan tiene una reclamación fuerte sobre un título en poder del reino objetivo. Valor predeterminado: 45." />
+    <string id="BC_MCM_WarTargetWeakClaim" text="Peso de las reclamaciones débiles" />
+    <string id="BC_MCM_WarTargetWeakClaim_Hint" text="Puntuación añadida al objetivo cuando un clan tiene una reclamación débil sobre un título en poder del reino objetivo. Valor predeterminado: 25." />
+    <string id="BC_MCM_WarTargetDeJureClaim" text="Peso de la ocupación de territorios de iure" />
+    <string id="BC_MCM_WarTargetDeJureClaim_Hint" text="Puntuación añadida al objetivo cuando el reino objetivo ocupa un título que pertenece legalmente al clan que realiza la evaluación. Valor predeterminado: 35." />
+    <string id="BC_MCM_WarTargetAlliancePenalty" text="Penalización por alianzas con el objetivo" />
+    <string id="BC_MCM_WarTargetAlliancePenalty_Hint" text="Penalización a la puntuación de los reinos objetivo con los que existe una alianza formal. Valor predeterminado: -50." />
+    <string id="BC_MCM_WarTargetTradePenalty" text="Penalización por acuerdos comerciales con el objetivo" />
+    <string id="BC_MCM_WarTargetTradePenalty_Hint" text="Penalización a la puntuación de los reinos objetivo con los que existe un acuerdo comercial. Valor predeterminado: -8." />
+    <string id="BC_MCM_WarTargetMarriagePenalty" text="Penalización por vínculos matrimoniales extranjeros" />
+    <string id="BC_MCM_WarTargetMarriagePenalty_Hint" text="Penalización a la puntuación cuando el clan que realiza la evaluación tiene vínculos matrimoniales dentro del reino objetivo. Valor predeterminado: -10." />
+    <string id="BC_MCM_WarTargetRulingMarriagePenalty" text="Penalización por vínculos con la dinastía gobernante" />
+    <string id="BC_MCM_WarTargetRulingMarriagePenalty_Hint" text="Penalización a la puntuación cuando el clan que realiza la evaluación tiene vínculos matrimoniales con el clan gobernante del reino objetivo. Valor predeterminado: -15." />
+    <string id="BC_MCM_WarWillBattleMultiplier" text="Multiplicador del impacto de las batallas" />
+    <string id="BC_MCM_WarWillBattleMultiplier_Hint" text="Multiplicador del impacto en la voluntad bélica de las victorias, las derrotas y las muertes de nobles en batalla. Valor predeterminado: 1." />
+    <string id="BC_MCM_WarWillRaidMultiplier" text="Multiplicador del impacto de los saqueos" />
+    <string id="BC_MCM_WarWillRaidMultiplier_Hint" text="Multiplicador del impacto de los saqueos en la voluntad bélica. Valor predeterminado: 1." />
+    <string id="BC_MCM_WarWillSettlementMultiplier" text="Multiplicador del impacto de los asentamientos" />
+    <string id="BC_MCM_WarWillSettlementMultiplier_Hint" text="Multiplicador del impacto en la voluntad bélica de las pérdidas y conquistas de asentamientos y del cumplimiento de objetivos de reclamaciones. Valor predeterminado: 1." />
+    <string id="BC_MCM_WarWillCaptivityMultiplier" text="Multiplicador del impacto del cautiverio" />
+    <string id="BC_MCM_WarWillCaptivityMultiplier_Hint" text="Multiplicador del impacto en la voluntad bélica de la captura de nobles, herederos y gobernantes. Valor predeterminado: 1." />
+    <string id="BC_MCM_RetainedPrisonerDungeonEscape" text="Probabilidad de fuga de nobles retenidos en mazmorras" />
+    <string id="BC_MCM_RetainedPrisonerDungeonEscape_Hint" text="Probabilidad diaria base de fuga de nobles retenidos tras un tratado de paz de Bellum, en la mazmorra de un asentamiento o en un grupo que permanece en un asentamiento. Siguen aplicándose la reducción del 50% del juego base cuando el captor es el jugador y las ventajas pertinentes. El juego base normalmente libera a los nobles al llegar la paz. Valores predeterminados: Bellum: 1%; juego base: 4% antes de los modificadores." />
+    <string id="BC_MCM_RetainedPrisonerMobileEscape" text="Probabilidad de fuga de nobles retenidos en grupos en marcha" />
+    <string id="BC_MCM_RetainedPrisonerMobileEscape_Hint" text="Probabilidad diaria base de fuga de nobles retenidos tras un tratado de paz de Bellum en un grupo en marcha. Siguen aplicándose la reducción del 50% del juego base cuando el captor es el jugador y las ventajas pertinentes. El juego base normalmente libera a los nobles al llegar la paz. Valores predeterminados: Bellum: 3%; juego base: 8-20%, según los miembros sanos del grupo, antes de los modificadores." />
     <!-- Household ransom broker -->
     <string id="BC_HouseholdRansom_Request" text="Quiero organizar el rescate de un miembro de mi familia." />
     <string id="BC_HouseholdRansom_BrokerAccepts" text="Por supuesto, mi {?PLAYER.GENDER}lady{?}lord{\?}. Vamos a discutir los términos, y voy a enviar a uno de mis asociados para entregar su oferta de rescate." />
@@ -187,15 +187,15 @@
     <string id="BC_HouseholdRansom_Description" text="Seleccione el miembro de su hogar cuya liberación debe organizar el corredor." />
     <string id="BC_HouseholdRansom_Confirm" text="Confirmar" />
     <string id="BC_HouseholdRansom_Cancel" text="Cancelar" />
-    <string id="BC_HouseholdRansom_Candidate" text="{HERO_NAME} - {COST} denarios" />
+    <string id="BC_HouseholdRansom_Candidate" text="{HERO_NAME} - {COST} denares" />
     <string id="BC_HouseholdRansom_CandidateHint" text="Captor: {CAPTOR_CLAN}{newline}Organizado por: {HOLDING}{newline}Ransom demandado: {COST} denars.{AFFORDABILITY}" />
     <string id="BC_HouseholdRansom_CannotAfford" text="{newline}Usted no puede pagar este rescate." />
     <string id="BC_HouseholdRansom_ChangedCustody" text="Las circunstancias del cautivo han cambiado, y el corredor ya no puede honrar esa oferta de rescate." />
     <string id="BC_HouseholdRansom_InsufficientGold" text="Usted no tiene los denars {COST} necesarios para pagar este rescate." />
     <string id="BC_HouseholdRansom_Released" text="El rescate ha sido pagado. {HERO_NAME} es gratis." />
     <string id="BC_ClanMember_PrisonerRansomHint" text="{CHARACTER_NAME} es encarcelado.{newline}Puede negociar su liberación en el parlamento de paz, organizar un rescate a través de un corredor o esperar una oferta entrante. De lo contrario, permanecen cautivos hasta que son rescatados o escapan." />
-    <string id="BC_MCM_WarWillCasualtyMultiplier" text="Multiplicador de choque de víctimas" />
-    <string id="BC_MCM_WarWillCasualtyMultiplier_Hint" text="Multiplicador aplicado a la Guerra Perderá víctimas de batalla. Valor predeterminado: 1." />
+    <string id="BC_MCM_WarWillCasualtyMultiplier" text="Multiplicador del impacto de las bajas" />
+    <string id="BC_MCM_WarWillCasualtyMultiplier_Hint" text="Multiplicador de la pérdida de voluntad bélica por bajas en batalla. Valor predeterminado: 1." />
     <string id="BC_WarWill_Motive_TooltipLine" text="{REASON}: {AMOUNT}" />
     <string id="BC_Parley_Enthusiasm" text="Entusiasmo: {VALUE}" />
     <string id="BC_Parley_EnthusiasmLabel" text="Entusiasmo" />
@@ -218,7 +218,7 @@
     <string id="BC_Treaty_SummaryReleaseOnePrisoner" text="{FROM_REALM} libera un prisionero noble a {TO_REALM}" />
     <string id="BC_Treaty_SummaryReleasePrisoners" text="{FROM_REALM} libera a los prisioneros nobles {COUNT} a {TO_REALM}" />
     <string id="BC_Treaty_SummaryReparations" text="{FROM_REALM} paga {TO_REALM} {GOLD} denars en reparaciones" />
-    <string id="BC_Treaty_SummaryTribute" text="{FROM_REALM} paga {TO_REALM} {GOLD} denarios por día para días {DAYS}" />
+    <string id="BC_Treaty_SummaryTribute" text="{FROM_REALM} paga {TO_REALM} {GOLD} denares por día para días {DAYS}" />
     <string id="BC_Treaty_SummaryRenounceClaim" text="{CLAN_NAME} renuncia a su reclamo de {TITLE_NAME}" />
     <string id="BC_Treaty_SummaryDiscreditRuler" text="{RULER_NAME} de {FROM_REALM} está públicamente desacreditado por {TO_REALM}" />
     <string id="BC_Treaty_SummaryHumiliateRuler" text="{RULER_NAME} de {FROM_REALM} es humillado públicamente por {TO_REALM}" />
@@ -284,44 +284,44 @@
     <string id="BC_WarWill_Reason_MarriageTies" text="Los lazos matrimoniales" />
     <string id="BC_WarWill_Reason_FormalAlliance" text="Alianza formal" />
     <string id="BC_WarWill_Reason_TradeAgreement" text="Acuerdo comercial" />
-    <string id="BC_MCM_EnableNpcSubterfuge" text="Habilitar misiones de subterfugio NPC" />
-    <string id="BC_MCM_EnableNpcSubterfuge_Hint" text="Cuando está habilitado, los gobernantes de IA pueden gastar oro en subterfugios encubiertos contra reinos vecinos y rebeliones activas. Las misiones de subterfugios de los jugadores permanecen disponibles de cualquier manera. Predeterminado: Activado." />
-    <string id="BC_MCM_MeetingBase" text="Intervalo mínimo de la reunión del tribunal" />
-    <string id="BC_MCM_MeetingBase_Hint" text="Días mínimos entre facción de las reuniones de la corte real. Valor predeterminado: 14." />
-    <string id="BC_MCM_MeetingRandom" text="Reunión de la corte días extras al azar" />
-    <string id="BC_MCM_MeetingRandom_Hint" text="Días adicionales aleatorios añadidos al intervalo mínimo de reuniones. Valor predeterminado: 22." />
-    <string id="BC_MCM_CourtAgendaCost" text="Demanda judicial anula el costo" />
-    <string id="BC_MCM_CourtAgendaCost_Hint" text="Influencia pagada por una facción del líder de la corte real para bloquear o reemplazar una moción de facción. Los gobernantes de IA que lideran una facción insatisfecha usan este costo para proteger al reino de sus movimientos hostiles. Valor predeterminado: 100." />
-    <string id="BC_MCM_CourtTerm" text="Duración del plazo de la corte (años)" />
-    <string id="BC_MCM_CourtTerm_Hint" text="Tiempo entre las agendas de los tribunales públicos. Los cambios se aplican al próximo término, no a las sesiones anunciadas ni a las fechas de reconsideración de políticas existentes. Predeterminado: 1 año." />
-    <string id="BC_MCM_MandateDays" text="Días de Mandato Político" />
-    <string id="BC_MCM_MandateDays_Hint" text="Días en que un líder de facción jugador tiene que proponer una política alineada después de forzar un mandato de política. Predeterminado: 5." />
+    <string id="BC_MCM_EnableNpcSubterfuge" text="Activar misiones encubiertas de los PNJ" />
+    <string id="BC_MCM_EnableNpcSubterfuge_Hint" text="Al activar esta opción, los gobernantes de la IA pueden gastar oro en operaciones encubiertas contra reinos vecinos y rebeliones activas. Las misiones encubiertas del jugador siguen disponibles en ambos casos. Valor predeterminado: activado." />
+    <string id="BC_MCM_MeetingBase" text="Intervalo mínimo entre reuniones de la corte" />
+    <string id="BC_MCM_MeetingBase_Hint" text="Días mínimos entre reuniones de las facciones de la corte. Valor predeterminado: 14." />
+    <string id="BC_MCM_MeetingRandom" text="Días adicionales aleatorios entre reuniones de la corte" />
+    <string id="BC_MCM_MeetingRandom_Hint" text="Días adicionales aleatorios que se suman al intervalo mínimo entre reuniones. Valor predeterminado: 22." />
+    <string id="BC_MCM_CourtAgendaCost" text="Costo de bloquear o sustituir una moción de la corte" />
+    <string id="BC_MCM_CourtAgendaCost_Hint" text="Influencia que paga el líder de una facción de la corte para bloquear o sustituir una moción de su facción. Los gobernantes de la IA que lideran una facción descontenta utilizan este costo para proteger al reino de sus mociones hostiles. Valor predeterminado: 100." />
+    <string id="BC_MCM_CourtTerm" text="Duración del período de la corte (años)" />
+    <string id="BC_MCM_CourtTerm_Hint" text="Tiempo entre las agendas públicas de la corte. Los cambios se aplican al siguiente período, no a las sesiones anunciadas ni a las fechas de reconsideración de políticas existentes. Valor predeterminado: 1 año." />
+    <string id="BC_MCM_MandateDays" text="Días de vigencia del mandato político" />
+    <string id="BC_MCM_MandateDays_Hint" text="Días de los que dispone el jugador que lidera una facción para proponer una política afín tras imponer un mandato político. Valor predeterminado: 5." />
     <string id="BC_MCM_DeliberationDays" text="Días de deliberación política" />
-    <string id="BC_MCM_DeliberationDays_Hint" text="Días de deliberación antes de que Bellum presente los votos políticos, feudo y expulsión. La ventana de respuesta de decisión de juego base separada es de 48 horas. Valores valor predeterminado: Bellum: 5 días; juego base: sin período de deliberación añadido." />
-    <string id="BC_MCM_RebellionSuppressMin" text="Supresión de rebelión Costo mínimo" />
-    <string id="BC_MCM_RebellionSuppressMin_Hint" text="La influencia necesitaba frenar a una facción al comienzo del estado de ánimo rebelde. Valor predeterminado: 100." />
-    <string id="BC_MCM_RebellionSuppressMax" text="Supresión de Rebelión Costo Máximo" />
-    <string id="BC_MCM_RebellionSuppressMax_Hint" text="La influencia necesitaba frenar a una facción en el estado de ánimo rebelde más extremo. Valor predeterminado: 500." />
-    <string id="BC_MCM_GrandCoalitionJoinMood" text="Gran coalición  ⁇ nete al umbral del estado de ánimo" />
-    <string id="BC_MCM_GrandCoalitionJoinMood_Hint" text="facciones de la corte real en o por debajo de este estado de ánimo puede ser barrido en la gran coalición de otra facción. Como referencia, -21 o peor es lo suficientemente enojado por obstrucción y acciones judiciales negativas, mientras que -60 o peor se considera abiertamente rebelde. Valor predeterminado: -60." />
-    <string id="BC_MCM_BribeMultiplier" text="Multiplicador de costos de soborno político" />
-    <string id="BC_MCM_BribeMultiplier_Hint" text="Multiplicador aplicado a los costos de soborno de la política, feudo y voto de expulsión de Bellum Civile. Valor predeterminado: 1." />
-    <string id="BC_MCM_PostWarExecution" text="Posibilidad de ejecución posterior a la guerra" />
-    <string id="BC_MCM_PostWarExecution_Hint" text="Probabilidad de que un líder de clan derrotado sea ejecutado durante la lógica del tribunal de posguerra. Predeterminado: 10%. Si la ejecución falla, la confiscación se comprueba a continuación; si ambos fallan, el clan es perdonado." />
-    <string id="BC_MCM_PostWarConfiscation" text="Posibilidad de confiscación posterior a la guerra" />
-    <string id="BC_MCM_PostWarConfiscation_Hint" text="Probabilidad básica de que un clan derrotado tenga un feudo confiscado si la ejecución no se dispara. Valor predeterminado: 20%. Si la ejecución y la confiscación fracasan, el clan es perdonado." />
-    <string id="BC_MCM_EnableAutomaticTreasonIndictments" text="Permitir Acusaciones de Traición" />
-    <string id="BC_MCM_TermTreason_Hint" text="Permite nuevas agendas automáticas de traición a la Corona desde -60 relaciones y casos de decreto real programados en -100. Desactivar esto no cancela las agendas existentes o los casos de decreto diferido, ni cambia sus fechas guardadas. Los procedimientos existentes siguen sujetos a controles normales de validez. Las nominaciones de los jugadores manuales siguen disponibles. Predeterminado: Activado." />
-    <string id="BC_MCM_EnablePartitionSuccession" text="Habilitar la sucesión de particiones" />
-    <string id="BC_MCM_EnablePartitionSuccession_Hint" text="Cuando está activado, los grandes clanes nobles, incluido el clan de jugadores, pueden dividir feudos heredados de repuesto en ramas de cadetes después de la sucesión del clan. Predeterminado: Activado." />
-    <string id="BC_MCM_PartitionMainHeirFiefs" text="Heredero principal Reservado Personal Holdings" />
-    <string id="BC_MCM_PartitionMainHeirFiefs_Hint" text="Número de posesiones personales a nivel de baronía que el heredero principal conserva después de que se preserva la cadena de título principal. Los paquetes de título de repuesto y feudos pueden dividirse en ramas de cadete. Valor predeterminado: 1." />
-    <string id="BC_MCM_FeudalTitleMinimumChildren" text="Títulos mínimos para formar un título más alto" />
-    <string id="BC_MCM_FeudalTitleMinimumChildren_Hint" text="Número mínimo de títulos contiguos del mismo rango necesarios para formar un título más alto. Los valores más bajos crean jerarquías de títulos más densas que se ajustan mejor a la densidad del mapa de Calradia. Valor predeterminado: 2." />
-    <string id="BC_MCM_FeudalClaimFabricationYears" text="Años de referencia de fabricación de reclamaciones" />
-    <string id="BC_MCM_FeudalClaimFabricationYears_Hint" text="Número base de años en el juego necesarios para fabricar un reclamo antes de que la administración del fabricante, Roguery y los rasgos de personalidad modifiquen el progreso. Valor predeterminado: 3 años." />
-    <string id="BC_MCM_FeudalClaimFabricationDiscovery" text="Posibilidad de descubrimiento de reclamaciones fabricadas" />
-    <string id="BC_MCM_FeudalClaimFabricationDiscovery_Hint" text="Base el riesgo en cada hito antes que las habilidades y los modificadores del consejo. Los fracasos tempranos causan contratiempos recuperables; solo el fracaso final expone la falsificación. Predeterminado: 10%." />
+    <string id="BC_MCM_DeliberationDays_Hint" text="Días de deliberación antes de que Bellum someta a votación políticas, feudos y expulsiones. El período independiente de respuesta a decisiones del juego base es de 48 horas. Valores predeterminados: Bellum: 5 días; juego base: sin período adicional de deliberación." />
+    <string id="BC_MCM_RebellionSuppressMin" text="Costo mínimo de contención de rebeliones" />
+    <string id="BC_MCM_RebellionSuppressMin_Hint" text="Influencia necesaria para contener a una facción cuando comienza su ánimo rebelde. Valor predeterminado: 100." />
+    <string id="BC_MCM_RebellionSuppressMax" text="Costo máximo de contención de rebeliones" />
+    <string id="BC_MCM_RebellionSuppressMax_Hint" text="Influencia necesaria para contener a una facción cuando alcanza su ánimo rebelde más extremo. Valor predeterminado: 500." />
+    <string id="BC_MCM_GrandCoalitionJoinMood" text="Umbral de ánimo para unirse a una gran coalición" />
+    <string id="BC_MCM_GrandCoalitionJoinMood_Hint" text="Las facciones de la corte con un ánimo igual o inferior a este valor pueden sumarse a la gran coalición de otra facción. Como referencia, -21 o menos indica suficiente enojo para obstruir y emprender acciones negativas en la corte, mientras que -60 o menos se considera abiertamente rebelde. Valor predeterminado: -60." />
+    <string id="BC_MCM_BribeMultiplier" text="Multiplicador del costo de sobornos políticos" />
+    <string id="BC_MCM_BribeMultiplier_Hint" text="Multiplicador del costo de los sobornos en las votaciones de políticas, feudos y expulsiones de Bellum Civile. Valor predeterminado: 1." />
+    <string id="BC_MCM_PostWarExecution" text="Probabilidad de ejecución tras la guerra" />
+    <string id="BC_MCM_PostWarExecution_Hint" text="Probabilidad base de que el líder de un clan derrotado sea ejecutado durante el proceso del tribunal de posguerra. Valor predeterminado: 10%. Si no se produce una ejecución, se comprueba la confiscación; si no ocurre ninguna de las dos, el clan recibe el perdón." />
+    <string id="BC_MCM_PostWarConfiscation" text="Probabilidad de confiscación tras la guerra" />
+    <string id="BC_MCM_PostWarConfiscation_Hint" text="Probabilidad base de que se confisque un feudo a un clan derrotado si no se produce una ejecución. Valor predeterminado: 20%. Si no se producen ni la ejecución ni la confiscación, el clan recibe el perdón." />
+    <string id="BC_MCM_EnableAutomaticTreasonIndictments" text="Activar acusaciones de traición" />
+    <string id="BC_MCM_TermTreason_Hint" text="Permite nuevas acusaciones automáticas de traición de la Corona a partir de -60 de relación y procesos programados por decreto real a -100. Desactivar esta opción no cancela agendas existentes ni procesos aplazados por decreto, ni modifica sus fechas guardadas. Los procedimientos existentes siguen sujetos a las comprobaciones de validez normales. El jugador aún puede presentar acusaciones manualmente. Valor predeterminado: activado." />
+    <string id="BC_MCM_EnablePartitionSuccession" text="Activar la sucesión por reparto" />
+    <string id="BC_MCM_EnablePartitionSuccession_Hint" text="Al activar esta opción, los clanes nobles grandes, incluido el del jugador, pueden repartir los feudos heredados sobrantes entre ramas secundarias tras la sucesión del clan. Valor predeterminado: activado." />
+    <string id="BC_MCM_PartitionMainHeirFiefs" text="Posesiones personales reservadas al heredero principal" />
+    <string id="BC_MCM_PartitionMainHeirFiefs_Hint" text="Cantidad de posesiones personales de rango de baronía que conserva el heredero principal después de preservar la cadena del título principal. Los conjuntos de títulos y feudos sobrantes pueden repartirse entre ramas secundarias. Valor predeterminado: 1." />
+    <string id="BC_MCM_FeudalTitleMinimumChildren" text="Títulos mínimos para formar un título superior" />
+    <string id="BC_MCM_FeudalTitleMinimumChildren_Hint" text="Cantidad mínima de títulos contiguos del mismo rango necesaria para formar un título superior. Los valores más bajos crean jerarquías de títulos más densas que se adaptan mejor a la densidad del mapa de Calradia. Valor predeterminado: 2." />
+    <string id="BC_MCM_FeudalClaimFabricationYears" text="Años base para fabricar una reclamación" />
+    <string id="BC_MCM_FeudalClaimFabricationYears_Hint" text="Cantidad base de años de juego necesaria para fabricar una reclamación, antes de que la Administración, la Pillería y los rasgos de personalidad del falsificador modifiquen el progreso. Valor predeterminado: 3 años." />
+    <string id="BC_MCM_FeudalClaimFabricationDiscovery" text="Probabilidad de descubrir una reclamación fabricada" />
+    <string id="BC_MCM_FeudalClaimFabricationDiscovery_Hint" text="Riesgo base en cada hito antes de aplicar modificadores de habilidades y del consejo. Los fallos tempranos causan contratiempos recuperables; solo el fallo final revela la falsificación. Valor predeterminado: 10%." />
     <string id="BC_TitlePenalty_ContestedLegalTitle" text="Título legal impugnado" />
     <string id="BC_TitlePenalty_ContestedLegalTitleIncome" text="{FIEF_NAME}: título legal disputado" />
     <string id="BC_TitlePenalty_ContestedLegalTitlesIncome" text="Títulos legales impugnados" />
@@ -380,28 +380,28 @@
     <string id="BC_CadetName_FiefParent" text="{FIEF_NAME}-{PARENT_CLAN}" />
     <string id="BC_CadetName_Numbered" text="{BASE_NAME} {NUMBER}" />
     <string id="BC_DynasticHeiress_CadetName" text="{DYNASTY_NAME}-{BRANCH_NAME}" />
-    <string id="BC_MCM_EnableArmyRefusal" text="Habilitar el rechazo rebelde del ejército" />
-    <string id="BC_MCM_EnableArmyRefusal_Hint" text="Cuando está habilitado, las facciones abiertamente rebeldes de la corte real y los vasallos con relaciones muy pobres rechazan las llamadas a las armas. Predeterminado: Activado." />
-    <string id="BC_MCM_ArmyRefusalMood" text="Umbral de rechazo del ejército" />
-    <string id="BC_MCM_ArmyRefusalMood_Hint" text="La facción del estado de ánimo de la corte real o la relación vasalla en o por debajo de este valor rechaza las llamadas a las armas. Valor predeterminado: -60." />
-    <string id="BC_MCM_EnableFeudalArmySummons" text="Restringir las llamadas del ejército a los vasallos" />
-    <string id="BC_MCM_EnableFeudalArmySummons_Hint" text="Cuando está habilitado, los nobles no gobernantes solo pueden convocar clanes dentro de su autoridad de título de facto. Los gobernantes y los líderes de guerra temporales de Bellum todavía pueden convocar a su lado completo. Deshabilite esto para mantener la agrupación del ejército de estilo de juego base. Predeterminado: Activado." />
-    <string id="BC_MCM_ArmyPersonalFriendRelation" text="Relación de favor personal del ejército" />
-    <string id="BC_MCM_ArmyPersonalFriendRelation_Hint" text="Relación mínima en la que un señor fuera de su autoridad de facto puede responder a su llamado por el bien de la amistad, ya sea a través del menú del ejército o en persona. Predeterminado: 60." />
-    <string id="BC_MCM_EnableBellumMarriage" text="Habilitar la lógica estratégica del matrimonio" />
-    <string id="BC_MCM_EnableBellumMarriage_Hint" text="Cuando está activado, Bellum agrega lógica de matrimonio NPC estratégica para la supervivencia dinástica, la pacificación real y las alianzas reales extranjeras. Inhabilitar esto para dejar el emparejamiento de NPC al juego base u otro mod. Predeterminado: Activado." />
-    <string id="BC_MCM_BellumOnlyMarriage" text="Juego base de bloques Dice-Roll Marriage Logic" />
-    <string id="BC_MCM_BellumOnlyMarriage_Hint" text="Cuando se activa junto con la lógica estratégica de matrimonio, Bellum reemplaza los rollos de matrimonio NPC del juego base y las ofertas automáticas al clan del jugador con su emparejamiento estratégico. Deshabilite esto para permitir tiradas de juego base junto a los partidos de Bellum. Predeterminado: Activado." />
-    <string id="BC_MCM_MarriageMaleMinAge" text="Edad mínima de matrimonio" />
-    <string id="BC_MCM_MarriageMaleMinAge_Hint" text="Edad mínima para que los nobles masculinos sean considerados por el emparejamiento estratégico de Bellum. Esto no puede caer por debajo de la edad adulta activa y no cambia la elegibilidad para los matrimonios organizados por jugadores. Valores valor predeterminado: Bellum: 25 años; juego base: 18 años." />
-    <string id="BC_MCM_MarriageFemaleMinAge" text="Edad mínima de matrimonio" />
-    <string id="BC_MCM_MarriageFemaleMinAge_Hint" text="Edad mínima para que las mujeres nobles sean consideradas por el emparejamiento estratégico de Bellum. Esto no puede caer por debajo de la edad adulta activa y no cambia la elegibilidad para los matrimonios organizados por jugadores. Valores valor predeterminado: Bellum: 25 años; juego base: 18 años." />
-    <string id="BC_MCM_MarriageFemaleMaxAge" text="Edad máxima del matrimonio femenino" />
-    <string id="BC_MCM_MarriageFemaleMaxAge_Hint" text="Edad máxima para que las mujeres nobles sean consideradas por el emparejamiento estratégico de Bellum. Esto no cambia la fertilidad o la elegibilidad para los matrimonios organizados por jugadores. Valores valor predeterminado: Bellum: 41 años; juego base: sin edad máxima fija de matrimonio." />
-    <string id="BC_MCM_EnableDynamicRelationDrift" text="Habilitar memoria de relación" />
-    <string id="BC_MCM_EnableDynamicRelationDrift_Hint" text="Cuando está habilitado, las relaciones nobles combinan una base política natural con recuerdos duraderos y cronometrados de favores y agravios. Las páginas de la enciclopedia del héroe muestran el desglose completo. Predeterminado: Activado." />
-    <string id="BC_MCM_DynamicRelationWeeklyDrift" text="La relación heredada se desvanece" />
-    <string id="BC_MCM_DynamicRelationWeeklyDrift_Hint" text="Tasa de solo migración utilizada para preservar la antigua deriva semanal del historial de relaciones almacenado en guardas anteriores." />
+    <string id="BC_MCM_EnableArmyRefusal" text="Permitir el rechazo de convocatorias por rebeldía" />
+    <string id="BC_MCM_EnableArmyRefusal_Hint" text="Al activar esta opción, las facciones de la corte abiertamente rebeldes y los vasallos con relaciones muy malas rechazan las convocatorias a las armas. Valor predeterminado: activado." />
+    <string id="BC_MCM_ArmyRefusalMood" text="Umbral para rechazar convocatorias militares" />
+    <string id="BC_MCM_ArmyRefusalMood_Hint" text="Las facciones de la corte cuyo ánimo, o los vasallos cuya relación, sea igual o inferior a este valor rechazan las convocatorias a las armas. Valor predeterminado: -60." />
+    <string id="BC_MCM_EnableFeudalArmySummons" text="Limitar las convocatorias militares a los vasallos" />
+    <string id="BC_MCM_EnableFeudalArmySummons_Hint" text="Al activar esta opción, los nobles que no gobiernan solo pueden convocar a clanes que estén bajo la autoridad de facto de sus títulos. Los gobernantes y los líderes militares temporales de Bellum aún pueden convocar a todo su bando. Desactívala para mantener el sistema de agrupación de ejércitos del juego base. Valor predeterminado: activado." />
+    <string id="BC_MCM_ArmyPersonalFriendRelation" text="Relación necesaria para acudir por amistad" />
+    <string id="BC_MCM_ArmyPersonalFriendRelation_Hint" text="Relación mínima con la que un noble ajeno a tu autoridad de facto puede responder a tu convocatoria por amistad, tanto desde el menú del ejército como en persona. Valor predeterminado: 60." />
+    <string id="BC_MCM_EnableBellumMarriage" text="Activar la lógica de matrimonios estratégicos" />
+    <string id="BC_MCM_EnableBellumMarriage_Hint" text="Al activar esta opción, Bellum añade una lógica de matrimonios estratégicos de PNJ para la supervivencia dinástica, la pacificación real y las alianzas reales extranjeras. Desactívala para dejar la formación de parejas de PNJ en manos del juego base o de otro mod. Valor predeterminado: activado." />
+    <string id="BC_MCM_BellumOnlyMarriage" text="Sustituir los matrimonios aleatorios del juego base" />
+    <string id="BC_MCM_BellumOnlyMarriage_Hint" text="Al activar esta opción junto con la lógica de matrimonios estratégicos, Bellum sustituye las decisiones aleatorias de matrimonio de PNJ y las ofertas automáticas al clan del jugador del juego base por su sistema de parejas estratégicas. Desactívala para permitir las decisiones aleatorias del juego base junto con las parejas de Bellum. Valor predeterminado: activado." />
+    <string id="BC_MCM_MarriageMaleMinAge" text="Edad mínima de matrimonio para hombres" />
+    <string id="BC_MCM_MarriageMaleMinAge_Hint" text="Edad mínima para que los nobles varones sean considerados por el sistema de parejas estratégicas de Bellum. No puede ser inferior a la mayoría de edad activa y no cambia los requisitos de los matrimonios concertados por el jugador. Valores predeterminados: Bellum: 25 años; juego base: 18 años." />
+    <string id="BC_MCM_MarriageFemaleMinAge" text="Edad mínima de matrimonio para mujeres" />
+    <string id="BC_MCM_MarriageFemaleMinAge_Hint" text="Edad mínima para que las mujeres nobles sean consideradas por el sistema de parejas estratégicas de Bellum. No puede ser inferior a la mayoría de edad activa y no cambia los requisitos de los matrimonios concertados por el jugador. Valores predeterminados: Bellum: 25 años; juego base: 18 años." />
+    <string id="BC_MCM_MarriageFemaleMaxAge" text="Edad máxima de matrimonio para mujeres" />
+    <string id="BC_MCM_MarriageFemaleMaxAge_Hint" text="Edad máxima para que las mujeres nobles sean consideradas por el sistema de parejas estratégicas de Bellum. No cambia la fertilidad ni los requisitos de los matrimonios concertados por el jugador. Valores predeterminados: Bellum: 41 años; juego base: sin edad máxima fija de matrimonio." />
+    <string id="BC_MCM_EnableDynamicRelationDrift" text="Activar la memoria de relaciones" />
+    <string id="BC_MCM_EnableDynamicRelationDrift_Hint" text="Al activar esta opción, las relaciones de los nobles combinan una base política natural con recuerdos duraderos y temporales de favores y agravios. Las páginas de personajes de la enciclopedia muestran el desglose completo. Valor predeterminado: activado." />
+    <string id="BC_MCM_DynamicRelationWeeklyDrift" text="Desvanecimiento del historial de relaciones antiguo" />
+    <string id="BC_MCM_DynamicRelationWeeklyDrift_Hint" text="Tasa utilizada únicamente para la migración de partidas, que permite conservar la variación semanal anterior del historial de relaciones almacenado en partidas antiguas." />
     <string id="BC_RelationThreshold_Label" text="Umbral de relación:" />
     <string id="BC_ClanHeir_Label" text="Heredero:" />
     <string id="BC_SuccessionScope_Kingdom" text="Por Realm" />
@@ -450,7 +450,7 @@
     <string id="BC_Relation_DesiresTitle" text="Deseos {TITLE_NAME}: {DELTA}" />
     <string id="BC_Relation_DesiresTitleControl" text="Desea el control de {TITLE_NAME}: {DELTA}" />
     <string id="BC_Relation_LandlessTitleDesire" text="Desires aterrizó título: {DELTA}" />
-    <string id="BC_Relation_BaselineCap" text="Tapa de línea base: {OLD_SCORE} - ⁇  {NEW_SCORE}" />
+    <string id="BC_Relation_BaselineCap" text="Límite de referencia: {OLD_SCORE} -&gt; {NEW_SCORE}" />
     <string id="BC_RelationMemory_Label" text="Relación natural:" />
     <string id="BC_RelationMemory_OpinionTitle" text="Opinión de {CHARACTER_NAME} sobre {PLAYER_NAME}" />
     <string id="BC_RelationMemory_OpinionTitleSubject" text="{CHARACTER_NAME}" />
@@ -652,13 +652,13 @@
     <string id="BC_Hierarchy_Allegiance" text="Lealtad" />
     <string id="BC_Hierarchy_Independent" text="Independiente" />
     <string id="BC_Hierarchy_DeJureDrift" text="De jure deriva" />
-    <string id="BC_Hierarchy_DriftAdvancing" text="{TARGET_REALM} - {PROGRESS}% ( ⁇ {YEARS} años)" />
+    <string id="BC_Hierarchy_DriftAdvancing" text="{TARGET_REALM} - {PROGRESS}% (~{YEARS} años)" />
     <string id="BC_Hierarchy_DriftPaused" text="{TARGET_REALM} - {PROGRESS}%" />
     <string id="BC_Hierarchy_DriftReversing" text="{TARGET_REALM} - {PROGRESS}% (invirtiendo)" />
     <string id="BC_Hierarchy_DriftIncluded" text="Incluido con {PACKAGE_TITLE}: {DETAILS}" />
     <string id="BC_Hierarchy_DriftBlocked" text="{TARGET_REALM} - bloqueado ({REASON})" />
     <string id="BC_Hierarchy_DriftBlockedNoRealm" text="Bloqueado ({REASON})" />
-    <string id="BC_Hierarchy_DriftReady" text="{TARGET_REALM} - listo para comenzar ( ⁇ {YEARS} años)" />
+    <string id="BC_Hierarchy_DriftReady" text="{TARGET_REALM} - listo para comenzar (~{YEARS} años)" />
     <string id="BC_Hierarchy_DriftPausedReason" text="{TARGET_REALM} - {PROGRESS}% (en pausa: {REASON})" />
     <string id="BC_Hierarchy_DriftReversingReason" text="{TARGET_REALM} - {PROGRESS}% (invirtiendo: {REASON})" />
     <string id="BC_Hierarchy_DriftUnknownRealm" text="Reino desconocido" />
@@ -702,14 +702,14 @@
     <string id="BC_FeudalService_Elevated" text="Elevado" />
     <string id="BC_FeudalService_Extortion" text="Extorsión" />
     <string id="BC_Hierarchy_ClaimConfirmTitle" text="Reclamación de Fabricate" />
-    <string id="BC_Hierarchy_ClaimConfirmDesc" text="La fabricación de una reclamación a la {TITLE_NAME} costará denarios {GOLD_COST} y la influencia {INFLUENCE_COST}. Se espera que el trabajo tome aproximadamente días {DAYS}. ¿Proceder?" />
+    <string id="BC_Hierarchy_ClaimConfirmDesc" text="La fabricación de una reclamación a la {TITLE_NAME} costará denares {GOLD_COST} y la influencia {INFLUENCE_COST}. Se espera que el trabajo tome aproximadamente días {DAYS}. ¿Proceder?" />
     <string id="BC_Hierarchy_UsurpConfirmTitle" text="Título Usurp" />
     <string id="BC_Hierarchy_UsurpConfirmDesc" text="Usurpar el {TITLE_NAME} costará {GOLD_COST} Denars y {INFLUENCE_COST} Sustituye a su actual titular legal por tu clan. ¿Proceder?" />
-    <string id="BC_Hierarchy_ClaimHintEnabled" text="Fabricar una reclamación débil a la {TITLE_NAME}.&#10;&#10;costo:&#10;{GOLD_COST} denarios&#10;Influencia {INFLUENCE_COST}&#10;&#10;Duración estimada: {DAYS} días" />
+    <string id="BC_Hierarchy_ClaimHintEnabled" text="Fabricar una reclamación débil a la {TITLE_NAME}.&#10;&#10;costo:&#10;{GOLD_COST} denares&#10;Influencia {INFLUENCE_COST}&#10;&#10;Duración estimada: {DAYS} días" />
     <string id="BC_Hierarchy_ClaimHintInProgress" text="Actualmente está fabricando una reclamación a la {TITLE_NAME}.&#10;&#10;Progreso: {PROGRESS}% ({DAYS} días restantes)" />
-    <string id="BC_Hierarchy_ClaimHintDisabled" text="No puede fabricar una reclamación al {TITLE_NAME}:&#10;{REASON}&#10;&#10;costo:&#10;{GOLD_COST} denarios&#10;Influencia {INFLUENCE_COST}" />
-    <string id="BC_Hierarchy_UsurpHintEnabled" text="Usar el {TITLE_NAME}. costo: denarios {GOLD_COST} y influencia {INFLUENCE_COST}. Títulos subordinados controlados: {CONTROLLED}/{TOTAL}." />
-    <string id="BC_Hierarchy_UsurpHintDisabled" text="No puede usurpar el {TITLE_NAME}: {REASON}&#10;&#10;Necesitas un reclamo débil o fuerte y un control de facto. Los títulos superiores requieren el control de más de la mitad de sus títulos subordinados inmediatos reales, incluidos los gobernados por sus vasallos de facto. costo: denarios {GOLD_COST} y influencia {INFLUENCE_COST}." />
+    <string id="BC_Hierarchy_ClaimHintDisabled" text="No puede fabricar una reclamación al {TITLE_NAME}:&#10;{REASON}&#10;&#10;costo:&#10;{GOLD_COST} denares&#10;Influencia {INFLUENCE_COST}" />
+    <string id="BC_Hierarchy_UsurpHintEnabled" text="Usar el {TITLE_NAME}. costo: denares {GOLD_COST} y influencia {INFLUENCE_COST}. Títulos subordinados controlados: {CONTROLLED}/{TOTAL}." />
+    <string id="BC_Hierarchy_UsurpHintDisabled" text="No puede usurpar el {TITLE_NAME}: {REASON}&#10;&#10;Necesitas un reclamo débil o fuerte y un control de facto. Los títulos superiores requieren el control de más de la mitad de sus títulos subordinados inmediatos reales, incluidos los gobernados por sus vasallos de facto. costo: denares {GOLD_COST} y influencia {INFLUENCE_COST}." />
     <string id="BC_Hierarchy_RevokeHintEnabled" text="Revocación de demanda del {TITLE_NAME} desde el {HOLDER_CLAN}. costo: influencia de {INFLUENCE_COST}.&#10;&#10;Requiere autoridad directa de facto y un reclamo débil o fuerte. Si el vasallo se niega, la disputa se convierte inmediatamente en una disputa privada.&#10;&#10;Respuesta probable: {RESPONSE}" />
     <string id="BC_Hierarchy_RevokeHintDisabled" text="No se puede revocar la {TITLE_NAME}: {REASON}&#10;&#10;Sólo un derecho directo de facto con una reclamación débil o fuerte puede exigir la revocación de un vasallo inmediato." />
     <string id="BC_Hierarchy_RevokeResponseDefy" text="Rechazo y guerra privada" />
@@ -786,7 +786,7 @@
     <string id="BC_Hierarchy_FormConfirmDesc" text="Formar el {TITLE_NAME} de {CHILD_TITLES}? Esto costará {GOLD_COST} Denars y recompensar a su clan con {INFLUENCE_REWARD} influencia.{REORGANIZATION}{SUCCESSION_WARNING}{SOVEREIGN_WARNING}" />
     <string id="BC_Hierarchy_FormReorganizationWarning" text="&#10;&#10;Esto reorganiza la jerarquía existente: {MOVED_TITLES}. Los actuales vasallos conservan sus títulos y servicios por debajo del nuevo padre." />
     <string id="BC_Hierarchy_FormSuccessionWarning" text="&#10;&#10;Advertencia: esto crea otro título soberano de igual rango. Sin una corona más alta, la sucesión puede dividir estos reinos entre diferentes herederos." />
-    <string id="BC_Hierarchy_FormHintAssessment" text="{STATUS}&#10;&#10;Títulos {CHILD_TIER} contiguos elegibles: {AVAILABLE}/{REQUIRED}&#10;costo: denarios {GOLD_COST}&#10;Recompensa: {INFLUENCE_REWARD} influencia{OBSTACLES}" />
+    <string id="BC_Hierarchy_FormHintAssessment" text="{STATUS}&#10;&#10;Títulos {CHILD_TIER} contiguos elegibles: {AVAILABLE}/{REQUIRED}&#10;costo: denares {GOLD_COST}&#10;Recompensa: {INFLUENCE_REWARD} influencia{OBSTACLES}" />
     <string id="BC_Hierarchy_FormStatusEnabled" text="Disponible: forma el {TITLE_NAME} de títulos contiguos {CHILD_COUNT}.{MULTIPLE}" />
     <string id="BC_Hierarchy_FormStatusMultiple" text="Las formaciones válidas {COUNT} están disponibles." />
     <string id="BC_Hierarchy_FormStatusHighestTier" text="El {SEAT_TITLE} ya es del nivel de título más alto." />
@@ -796,7 +796,7 @@
     <string id="BC_Hierarchy_FormStatusNoNeighbors" text="Ningún otro título de {CHILD_TIER} es vecino del {SEAT_TITLE} bajo las reglas de formación." />
     <string id="BC_Hierarchy_FormStatusNeighborsIneligible" text="Existen títulos {CHILD_TIER} vecinos, pero ninguno se puede incluir legalmente con el {SEAT_TITLE}." />
     <string id="BC_Hierarchy_FormStatusTooFew" text="Solo {AVAILABLE} de la necesaria {REQUIRED} contiguos {CHILD_TIER} Los títulos son elegibles alrededor de la {SEAT_TITLE}." />
-    <string id="BC_Hierarchy_FormStatusGold" text="La estructura del título es válida, pero solo tiene {CURRENT_GOLD} de los denarios {GOLD_COST} requeridos." />
+    <string id="BC_Hierarchy_FormStatusGold" text="La estructura del título es válida, pero solo tiene {CURRENT_GOLD} de los denares {GOLD_COST} requeridos." />
     <string id="BC_Hierarchy_FormStatusConflictingParents" text="Un título seleccionado tiene padres conflictivos de jure y de facto del rango propuesto." />
     <string id="BC_Hierarchy_FormStatusUnauthorizedHolder" text="Un título requerido no está completamente en manos de tu clan o de un vasallo directo elegible." />
     <string id="BC_Hierarchy_FormStatusIneligibleVassal" text="Un vasallo directo elegible de tu reino no posee un título vasallo requerido." />
@@ -827,7 +827,7 @@
     <string id="BC_Hierarchy_RenameCompleted" text="El {OLD_TITLE_NAME} ahora se conoce como el {NEW_TITLE_NAME}." />
     <string id="BC_Hierarchy_RenameHintEnabled" text="Cambie el nombre del {TITLE_NAME}. El título debe ser poseído por su clan tanto de jure como de facto." />
     <string id="BC_Hierarchy_RenameHintDisabled" text="No se puede cambiar el nombre del {TITLE_NAME}: {REASON}&#10;&#10;Solo un título en poder de tu clan tanto de jure como de facto puede ser renombrado." />
-    <string id="BC_Hierarchy_FormCandidateHint" text="Incluye: {CHILD_TITLES}&#10;costo: denarios {GOLD_COST}&#10;Recompensa de influencia: {INFLUENCE_REWARD}" />
+    <string id="BC_Hierarchy_FormCandidateHint" text="Incluye: {CHILD_TITLES}&#10;costo: denares {GOLD_COST}&#10;Recompensa de influencia: {INFLUENCE_REWARD}" />
     <string id="BC_Hierarchy_ServiceChooseTitle" text="Establecer Servicio Feudal" />
     <string id="BC_Hierarchy_ServiceChooseDesc" text="Establezca el servicio adeudado por el {TITLE_NAME} en su dominio inmediato, el {LIEGE_TITLE}." />
     <string id="BC_Hierarchy_ServiceHintEnabled" text="Cambiar el servicio que debe la {TITLE_NAME} a la {LIEGE_TITLE}.&#10;&#10;Servicio actual: {SERVICE_LEVEL}&#10;Participación fiscal: {TAX_SHARE}%&#10;costo del ejército: {ARMY_COST}%&#10;Modificador de relación en curso: {RELATION_MODIFIER}" />
@@ -930,9 +930,9 @@
     <string id="BC_UI_Err_MercJoin" text="Los mercenarios no pueden participar en la política del reino." />
     <string id="BC_UI_Err_JoinSelf" text="No puedes unirte a una rebelión contra ti mismo." />
     <string id="BC_UI_Err_DefectWrongSide" text="Todavía tienes que jurar a la corona para desertar a esta rebelión." />
-    <string id="BC_UI_Err_JoinCourtFactionCivilWar" text="Esta facción de la corte real ya está luchando en una guerra civil.  ⁇ nete a la coalición rebelde activa si quieres cambiar de bando." />
+    <string id="BC_UI_Err_JoinCourtFactionCivilWar" text="Esta facción de la corte ya está luchando en una guerra civil. Si quieres cambiar de bando, únete a la coalición rebelde activa." />
     <string id="BC_UI_Hint_SelectJoin" text="Seleccione una facción para unirse." />
-    <string id="BC_UI_Hint_Join" text=" ⁇ nete a esta facción." />
+    <string id="BC_UI_Hint_Join" text="Únete a esta facción." />
     <string id="BC_UI_Hint_Disband" text="Disuelva su rebelión activa." />
     <string id="BC_UI_Hint_Surrender" text="Entrega tu rebelión a la corona y resuelve la guerra civil como una victoria leal." />
     <string id="BC_UI_Hint_LoyalistSurrender" text="Ceder a la rebelión seleccionada y hacer cumplir sus demandas como una victoria rebelde." />
@@ -962,19 +962,19 @@
     <string id="BC_UI_Opposing_Realm" text="El Reino" />
     <string id="BC_UI_Opposing_Loyalists" text="Leales" />
     <string id="BC_Mod_Ruler" text="(Gobernador)" />
-    <string id="BC_Mod_ArmyDisloyal" text="( ⁇ 3.00 Desleal)" />
-    <string id="BC_Mod_ArmyRoyLoyal" text="( ⁇ 0.80 Leal)" />
-    <string id="BC_Mod_ArmyRoyHappy" text="( ⁇ 1.00 Feliz)" />
-    <string id="BC_Mod_ArmyRoyNeutral" text="( ⁇ 1.25 Neutral)" />
-    <string id="BC_Mod_ArmyRoyUnhappy" text="( ⁇ 1.50 Infeliz)" />
-    <string id="BC_Mod_ArmyRoyRebel" text="( ⁇ 2.00 Rebelde)" />
-    <string id="BC_Mod_ArmyLoyal" text="( ⁇ 1.00 Leal)" />
-    <string id="BC_Mod_ArmyHappy" text="( ⁇ 1.20 Feliz)" />
-    <string id="BC_Mod_ArmyNeutral" text="( ⁇ 1.60 Neutral)" />
-    <string id="BC_Mod_ArmyUnhappy" text="( ⁇ 2.00 Infeliz)" />
-    <string id="BC_Mod_ArmyRebel" text="( ⁇ 3.00 Rebelde)" />
-    <string id="BC_Mod_ArmyMerc" text="( ⁇ 1.00 Mercenario)" />
-    <string id="BC_Mod_ArmyUnaligned" text="( ⁇ 1.00 Sin alineación)" />
+    <string id="BC_Mod_ArmyDisloyal" text="(×3.00 Desleal)" />
+    <string id="BC_Mod_ArmyRoyLoyal" text="(×0.80 Leal)" />
+    <string id="BC_Mod_ArmyRoyHappy" text="(×1.00 Contento)" />
+    <string id="BC_Mod_ArmyRoyNeutral" text="(×1.25 Neutral)" />
+    <string id="BC_Mod_ArmyRoyUnhappy" text="(×1.50 Descontento)" />
+    <string id="BC_Mod_ArmyRoyRebel" text="(×2.00 Rebelde)" />
+    <string id="BC_Mod_ArmyLoyal" text="(×1.00 Leal)" />
+    <string id="BC_Mod_ArmyHappy" text="(×1.20 Contento)" />
+    <string id="BC_Mod_ArmyNeutral" text="(×1.60 Neutral)" />
+    <string id="BC_Mod_ArmyUnhappy" text="(×2.00 Descontento)" />
+    <string id="BC_Mod_ArmyRebel" text="(×3.00 Rebelde)" />
+    <string id="BC_Mod_ArmyMerc" text="(×1.00 Mercenario)" />
+    <string id="BC_Mod_ArmyUnaligned" text="(×1.00 Sin facción)" />
     <string id="BC_Army_RefuseRebelliousFaction" text="Los {FACTION_NAME} son abiertamente rebeldes y rechazan todas las llamadas a las armas." />
     <string id="BC_Army_NotLegalVassal" text="Solo puedes convocar legalmente a tus vasallos a las armas." />
     <string id="BC_Army_DialogueFriendAcceptance" text="No te debo ninguna lealtad, pero por el amor de la amistad cabalgaré bajo tu bandera." />
@@ -989,7 +989,7 @@
     <string id="BC_Mod_WarDisloyal" text="(0% Desleal)" />
     <string id="BC_Mod_WarHappy" text="(75% Feliz)" />
     <string id="BC_Mod_WarNeutral" text="(50% Neutral)" />
-    <string id="BC_Mod_WarUnhappy" text="(25 % de insatisfacción)" />
+    <string id="BC_Mod_WarUnhappy" text="(25% Descontento)" />
     <string id="BC_Mod_WarRebellious" text="(0% Rebelde)" />
     <string id="BC_Mod_WarRivalClaimSoft" text="(25% Reclamante)" />
     <string id="BC_Mod_WarRivalClaimContent" text="(50% Reclamante de contenido)" />
@@ -1010,7 +1010,7 @@
     <string id="BC_MoodState_Neutral" text="Neutro" />
     <string id="BC_MoodState_Unhappy" text="Infeliz" />
     <string id="BC_MoodState_Rebellious" text="Rebelde" />
-    <string id="BC_UI_MoodHintFull" text="Estado de ánimo actual: {MOOD}&#10;Línea de base objetivo: {BASELINE}&#10;&#10;Modificadores de línea de base objetivo:&#10;{BREAKDOWN}&#10;&#10; ⁇  Nota: El estado de ánimo se desplaza 1 punto al día hacia la línea de base objetivo. Los acontecimientos mundiales recientes (batallas, asedios, ejecuciones) aplican picos temporales inmediatos al estado de ánimo actual." />
+    <string id="BC_UI_MoodHintFull" text="Ánimo actual: {MOOD}&#10;Valor de referencia objetivo: {BASELINE}&#10;&#10;Modificadores del valor de referencia objetivo:&#10;{BREAKDOWN}&#10;&#10;* Nota: El ánimo se acerca diariamente 1 punto al valor de referencia objetivo. Los acontecimientos recientes del mundo (batallas, asedios y ejecuciones) provocan cambios temporales inmediatos en el ánimo actual." />
     <string id="BC_UI_NoAgenda" text="No hay agenda específica." />
     
     <!-- FactionsWindowVM Agenda Strings -->
@@ -1298,13 +1298,13 @@
     <string id="BC_Ideology_Pop_Sabotage" text="La cadena de suministro saboteada por el {FACTION_NAME} de {KINGDOM_NAME} perjudica el crecimiento de varias aldeas." />
     <string id="BC_Ideology_Pop_Evasion" text="El {FACTION_NAME} de {KINGDOM_NAME} fomentaba la evasión de impuestos. La seguridad cayó en varios feudos." />
     <string id="BC_Ideology_Pop_Slander" text="El {FACTION_NAME} de {KINGDOM_NAME} calumnió la corona, dañando la reputación del Rey entre los comerciantes comunes." />
-    <string id="BC_Ideology_Roy_Tribute" text="El {FACTION_NAME} de {KINGDOM_NAME} aprobó un tributo real de 15.000 denarios a la corona." />
+    <string id="BC_Ideology_Roy_Tribute" text="La {FACTION_NAME} de {KINGDOM_NAME} aprobó un tributo real de 15,000 denares a la Corona." />
     <string id="BC_Ideology_Roy_Infra" text="El {FACTION_NAME} de {KINGDOM_NAME} invirtió fuertemente en infraestructura. Varios feudos florecieron en la prosperidad." />
     <string id="BC_Ideology_Roy_Fealty" text="Una afirmación pública de la autoridad de la corona por el {FACTION_NAME} de {KINGDOM_NAME} otorgó a {RULER_NAME} una influencia política significativa." />
     <string id="BC_Ideology_Roy_Diplomats" text="Los diplomáticos del {FACTION_NAME} de {KINGDOM_NAME} mejoraron con éxito la posición del Rey con clanes no alineados." />
     <string id="BC_Ideology_Roy_Bury" text="El {FACTION_NAME} de {KINGDOM_NAME} enterró escándalos políticos, suavizando las relaciones en todo el reino." />
     <string id="BC_Ideology_Roy_Mandate" text="El {FACTION_NAME} de {KINGDOM_NAME} cuestionó públicamente el mandato del Rey, causando una pérdida de influencia real." />
-    <string id="BC_Ideology_Roy_Boycott" text="El {FACTION_NAME} de {KINGDOM_NAME} orquestó un boicot fiscal, que le costó a la corona 15.000 dinares." />
+    <string id="BC_Ideology_Roy_Boycott" text="La {FACTION_NAME} de {KINGDOM_NAME} organizó un boicot fiscal que le costó a la Corona 15,000 denares." />
     <string id="BC_Ideology_Roy_Gossip" text="Los chismes cortesanos de la {FACTION_NAME} de la {KINGDOM_NAME} dañaron la posición del Rey con poderosos clanes." />
     <string id="BC_Ideology_Roy_Isolate" text="El {FACTION_NAME} de {KINGDOM_NAME} aisló políticamente la corona, cortando los lazos reales con varios señores." />
     <string id="BC_Ideology_Roy_Gridlock" text="El bloqueo burocrático causado por el {FACTION_NAME} de {KINGDOM_NAME} detuvo la administración en varios feudos." />
@@ -1481,13 +1481,13 @@
     <string id="BC_Fabrication_Result_FabricatorLost_Desc" text="El trabajo relacionado con el {TITLE_NAME} se ha abandonado después de la pérdida del agente que lo dirige. Los conspiradores sobrevivientes se han dispersado antes de que sus actividades puedan ser descubiertas." />
     <string id="BC_Fabrication_Result_TargetLost_Desc" text="Sus agentes han abandonado su trabajo porque el {TITLE_NAME} ya no se reconoce como un título válido. Los documentos reunidos ya no pueden soportar una reclamación útil." />
     <string id="BC_Fabrication_Result_CircumstancesChanged_Desc" text="Las circunstancias políticas que rodean el {TITLE_NAME} han cambiado, dejando a sus agentes sin un camino creíble para completar la fabricación. El trabajo ha sido abandonado." />
-    <string id="BC_Fabrication_Result_Refund" text="Del gasto original, se han recuperado los denarios {GOLD_AMOUNT}." />
+    <string id="BC_Fabrication_Result_Refund" text="Del gasto original, se han recuperado los denares {GOLD_AMOUNT}." />
     <string id="BC_Fabrication_Result_UnknownTitle" text="El título disputado" />
     <string id="BC_Fabrication_Result_Done" text="Listo" />
     <string id="BC_PartitionSuccession_CadetFounded" text="Después de la reciente sucesión en el {PARENT_CLAN}, {HEIR_NAME} ha heredado el {TITLE_NAME} como derecho de sangre {POSSESSIVE}, a partir de ahora {POSSESSIVE} lado de la familia se conoce como el {CADET_CLAN}." />
     <string id="BC_PartitionSuccession_SovereignRealmFounded" text="Sin un título superior para vincular la herencia, {HEIR_NAME} ha heredado {TITLE_NAME} como un reino independiente. Los dominios de {PARENT_CLAN} se han dividido entre sus herederos de sangre." />
     <string id="BC_DynasticHeiress_CadetFounded_Fief" text="Después del reciente matrimonio entre {BRIDE_NAME} de la {BRIDE_PARENT_CLAN} y {GROOM_NAME} de la {GROOM_PARENT_CLAN}, su hogar ha recibido la {DOWRY_FIEF} como dote. El mantenimiento de sus derechos dinásticos, en adelante su lado de la familia se conocerá como el {CADET_CLAN}." />
-    <string id="BC_DynasticHeiress_CadetFounded_Gold" text="Tras el reciente matrimonio entre {BRIDE_NAME} de la {BRIDE_PARENT_CLAN} y {GROOM_NAME} de la {GROOM_PARENT_CLAN}, su hogar ha recibido una gran suma en dinares como dote. El mantenimiento de sus derechos dinásticos, en adelante su lado de la familia se conocerá como el {CADET_CLAN}." />
+    <string id="BC_DynasticHeiress_CadetFounded_Gold" text="Tras el reciente matrimonio entre {BRIDE_NAME} de la {BRIDE_PARENT_CLAN} y {GROOM_NAME} de la {GROOM_PARENT_CLAN}, su hogar ha recibido una gran suma en denares como dote. El mantenimiento de sus derechos dinásticos, en adelante su lado de la familia se conocerá como el {CADET_CLAN}." />
     <string id="BC_DynasticHeiress_RightsRenounced" text="Tras el reciente matrimonio entre {BRIDE_NAME} de la {BRIDE_PARENT_CLAN} y {GROOM_NAME} de la {GROOM_PARENT_CLAN}, de acuerdo con las leyes de herencia del reino de la princesa ha renunciado a sus derechos dinásticos y se trasladó a unirse a la casa de su marido en {GROOM_KINGDOM}." />
     <string id="BC_DynasticHeiress_RightsRetained" text="Tras el reciente matrimonio entre {BRIDE_NAME} de la {BRIDE_PARENT_CLAN} y {GROOM_NAME} de la {GROOM_PARENT_CLAN}, la princesa se ha unido a la casa de su marido en {GROOM_KINGDOM}, conservando sus derechos hereditarios a la Corona de su patria." />
     <string id="BC_AbdicationUnionPending" text="El heredero legal ya gobierna otro reino. La unión de estas Coronas a través de la abdicación no se apoya; las uniones personales actualmente surgen a través de la sucesión hereditaria después de la muerte de un gobernante." />
@@ -1505,12 +1505,12 @@
     <string id="BC_PlayerSuccession_Cancel" text="Cancelar" />
     <string id="BC_Pronoun_His" text="su" />
     <string id="BC_Pronoun_Her" text="ella" />
-    <string id="BC_MCM_EnforcePlayerSuccessionLaw" text="Respetar la ley de sucesión al elegir heredero" />
-    <string id="BC_MCM_EnforcePlayerSuccessionLaw_Hint" text="Cuando está habilitado, el heredero jugable seleccionado después de la muerte de tu personaje debe seguir las leyes actuales de género y sucesión de tu casa. Deshabilitar esta opción para conservar la selección de herederos libre del juego base sin cambiar la sucesión en otro lugar. Predeterminado: Activado." />
-    <string id="BC_MCM_EnableCustomAdulthoodAge" text="Usar la edad adulta personalizada" />
-    <string id="BC_MCM_EnableCustomAdulthoodAge_Hint" text="Cuando está habilitado, Bellum cambia la era global en la que los héroes se convierten en adultos y pueden asumir el liderazgo del clan o casarse. Esto afecta a toda la campaña y requiere un reinicio. Predeterminado: Activado." />
-    <string id="BC_MCM_AdulthoodAge" text="Edad adulta" />
-    <string id="BC_MCM_AdulthoodAge_Hint" text="Edad global en la que los héroes se convierten en adultos, pueden dejar la regencia, liderar clanes y grupos, y ser elegibles para el matrimonio. Se usa solo cuando la edad adulta personalizada está habilitada. El emparejamiento estratégico de Bellum también aplica sus ajustes de edad matrimonial separados. Valores valor predeterminado: Bellum: 16 años; juego base: 18 años." />
+    <string id="BC_MCM_EnforcePlayerSuccessionLaw" text="Respetar la ley sucesoria al elegir heredero" />
+    <string id="BC_MCM_EnforcePlayerSuccessionLaw_Hint" text="Al activar esta opción, el heredero jugable elegido tras la muerte de tu personaje debe respetar las leyes de género y sucesión actuales de tu casa. Desactívala para conservar la libre elección de heredero del juego base sin cambiar la sucesión en otros ámbitos. Valor predeterminado: activado." />
+    <string id="BC_MCM_EnableCustomAdulthoodAge" text="Personalizar la edad de mayoría de edad" />
+    <string id="BC_MCM_EnableCustomAdulthoodAge_Hint" text="Al activar esta opción, Bellum cambia la edad global a la que los personajes alcanzan la mayoría de edad y pueden liderar clanes o casarse. Afecta a toda la campaña y requiere reiniciar el juego. Valor predeterminado: activado." />
+    <string id="BC_MCM_AdulthoodAge" text="Edad de mayoría de edad" />
+    <string id="BC_MCM_AdulthoodAge_Hint" text="Edad global a la que los personajes alcanzan la mayoría de edad, pueden dejar la regencia, liderar clanes y grupos y contraer matrimonio. Solo se utiliza si está activada la mayoría de edad personalizada. El sistema de parejas estratégicas de Bellum también aplica su configuración independiente de edades de matrimonio. Valores predeterminados: Bellum: 16 años; juego base: 18 años." />
     <string id="BC_SuccessionPanel_CrownHeir" text="Heredero aparente" />
     <string id="BC_SuccessionPanel_LawfulHeir" text="Heredero de la Corona" />
     <string id="BC_SuccessionPanel_PretenderLine" text="Línea de sucesión y pretendientes" />
@@ -1520,7 +1520,7 @@
     <string id="BC_SuccessionPanel_ElectionHeading" text="Clasificaciones electorales" />
     <string id="BC_SuccessionPanel_ElectionPending" text="Elecciones en curso" />
     <string id="BC_SuccessionPanel_NoElection" text="Ninguna elección en curso" />
-    <string id="BC_SuccessionPanel_Regency" text="Regente: {REGENT}  ⁇  Soberano: {WARD}" />
+    <string id="BC_SuccessionPanel_Regency" text="Regente: {REGENT} | Soberano: {WARD}" />
     <string id="BC_SuccessionPanel_TermsUnavailable" text="Las reformas de los mandatos electivos aún no están disponibles." />
     <string id="BC_SuccessionPanel_TermsHereditary" text="Los mandatos electivos no se aplican a la sucesión hereditaria." />
     <string id="BC_SuccessionPanel_TermLifetime" text="Mandato de por vida" />
@@ -1589,7 +1589,7 @@
     <string id="BC_GenderLine_Male" text="machos" />
     <string id="BC_GenderLine_Female" text="mujer" />
     <string id="BC_SuccessionLaw_Primogeniture" text="Primogenitura" />
-    <string id="BC_SuccessionLaw_Seniority" text="Antig ⁇ edad" />
+    <string id="BC_SuccessionLaw_Seniority" text="Antigüedad" />
     <string id="BC_SuccessionLaw_ShuraCouncil" text="Consejo Shura" />
     <string id="BC_SuccessionLaw_Kinship" text="Parientes" />
     <string id="BC_SuccessionLaw_Primogeniture_Desc" text="La rama del hijo mayor hereda primero, y los descendientes representan a un antepasado fallecido." />
@@ -1618,13 +1618,13 @@
     <string id="BC_SuccessionLine_House" text="Casa" />
     <string id="BC_RelationMemory_ChangedSuccessionLaws" text="Cambia las leyes de sucesión" />
     <string id="BC_SuccessionLaw_AgnaticPrimogeniture" text="Primogenitura agnática" />
-    <string id="BC_SuccessionLaw_AgnaticSeniority" text="La antig ⁇ edad agnática" />
+    <string id="BC_SuccessionLaw_AgnaticSeniority" text="Antigüedad agnática" />
     <string id="BC_SuccessionLaw_Ultimogeniture" text="Ultimagenitura" />
     <string id="BC_SuccessionLaw_TribalShura" text="Shura tribal" />
     <string id="BC_SuccessionLaw_Tanistry" text="Tanistry" />
     <string id="BC_SuccessionLaw_AbsolutePrimogeniture" text="Primogenitura absoluta" />
     <string id="BC_SuccessionLaw_MilitaryAcclamation" text="Aclamación militar" />
-    <string id="BC_SuccessionLaw_ElectiveSeniority" text="La antig ⁇ edad electiva" />
+    <string id="BC_SuccessionLaw_ElectiveSeniority" text="Antigüedad electiva" />
     <string id="BC_SuccessionLaw_Vanilla" text="juego base Sucesión" />
     <string id="BC_Revoke_Populist" text="argumentando que el acaparamiento ilegal debe dar paso a una demanda legal reconocida" />
     <string id="BC_Revoke_Aristocrat" text="argumentando que la noble ley exige que el título sea restaurado a su legítimo demandante" />
@@ -1661,7 +1661,7 @@
     <!-- ProxyWarBehavior.cs Strings -->
     <string id="BC_Proxy_StartMission" text="Necesito que emprendas una misión de subterfugio en un reino extranjero." />
     <string id="BC_Proxy_AlreadyOnMission" text="Este miembro del clan ya está llevando a cabo una misión clandestina." />
-    <string id="BC_Proxy_NeedGold" text="Necesita al menos 50.000 denarios para financiar incluso el subterfugio más barato." />
+    <string id="BC_Proxy_NeedGold" text="Necesitas al menos 50,000 denares para financiar incluso la operación encubierta más barata." />
     <string id="BC_Proxy_Response" text="Por supuesto, mi señor. El subterfugio requiere un bolso pesado y un trazado cuidadoso. ¿Quién es nuestro objetivo?" />
     <string id="BC_Proxy_DevisePlan" text="Vamos a diseñar un plan" />
     <string id="BC_Proxy_SelectTarget" text="Seleccionar destino Reino" />
@@ -1669,7 +1669,7 @@
     <string id="BC_Proxy_Act_5" text="Asesores extranjeros ({COST} Denars)" />
     <string id="BC_Proxy_MenuDesc_5" text="&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Efecto&lt;/b&gt;&lt;/a&gt;Concede +40 de cohesión a todos los ejércitos rebeldes.&#10;&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Presión&lt;/b&gt;&lt;/a&gt;: Mantiene a los rebeldes juntos por más tiempo en el campo.&#10;&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Mejor utilizado para&lt;/b&gt;&lt;/a&gt;Rebeliones que ya tienen ejércitos pero corren el riesgo de desmoronarse." />
     <string id="BC_Proxy_Act_6" text="El cofre de guerra ({COST} Denars)" />
-    <string id="BC_Proxy_MenuDesc_6" text="&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Efecto&lt;/b&gt;&lt;/a&gt;: Embudos 75.000 denarios directamente en el tesoro rebelde.&#10;&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Presión&lt;/b&gt;&lt;/a&gt;Ayuda a los rebeldes a pagar salarios, aumentar grupos y sobrevivir a la deserción.&#10;&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Mejor utilizado para&lt;/b&gt;&lt;/a&gt;Pobres rebeliones con suficientes nobles para seguir luchando." />
+    <string id="BC_Proxy_MenuDesc_6" text="&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Efecto&lt;/b&gt;&lt;/a&gt;: Entrega 75,000 denares directamente a la tesorería rebelde.&#10;&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Presión&lt;/b&gt;&lt;/a&gt;: Ayuda a los rebeldes a pagar salarios, reunir grupos y resistir el desgaste.&#10;&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Ideal para&lt;/b&gt;&lt;/a&gt;: rebeliones pobres con suficientes nobles para seguir luchando." />
     <string id="BC_Proxy_Act_7" text="Comprar contratos ({COST} Denars)" />
     <string id="BC_Proxy_MenuDesc_7" text="&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Efecto&lt;/b&gt;&lt;/a&gt;Soborna a los clanes mercenarios para que abandonen el reino padre.&#10;&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Presión&lt;/b&gt;&lt;/a&gt;Tiras contrataron espadas lejos del esfuerzo de guerra leal.&#10;&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Mejor usado contra&lt;/b&gt;&lt;/a&gt;: reinos que dependen de contratos mercenarios." />
     <string id="BC_Proxy_Act_8" text="Mercenarios Expedicionarios ({COST} Denars)" />
@@ -1774,7 +1774,7 @@
     <string id="BC_Policy_FuriousOutcome" text="El {FACTION_NAME} están furiosos por el resultado con respecto a {POLICY_NAME}." />
 
     <!-- SubModule & Barterables & FactionObject Strings -->
-    <string id="BC_Barter_JoinRebellion" text=" ⁇ nete a la Rebelión" />
+    <string id="BC_Barter_JoinRebellion" text="Unirse a la rebelión" />
     <string id="BC_Barter_LeaveFaction" text="Abandonar la facción y jurar lealtad" />
     <string id="BC_CivilWar_RecruitBlock" text="No puedes reclutar a {CLAN_NAME} mientras están luchando activamente en una guerra civil. Su lealtad debe decidirse primero en el campo de batalla." />
     <string id="BC_Disband_BoughtLeader" text="el líder fue comprado por la corona" />
@@ -2011,7 +2011,7 @@
     <string id="BC_CivilWar_PlayerCourtCall_Desc" text="{LIEGE_NAME} de la {LIEGE_CLAN} ha reunido a las facciones descontentos de la corte real y levantó sus banderas contra {RULER_NAME}. Sus aliados políticos ya están marchando.&#10;&#10;{BALANCE_REPORT}&#10;&#10;¿Vas a montar con ellos, o estar de pie con la corona?" />
     <string id="BC_CivilWar_PlayerFactionCall_Desc" text="{LIEGE_NAME} de la {LIEGE_CLAN} ha entregado ultimátum de la facción y levantó sus banderas contra {RULER_NAME}. Sus compañeros conspiradores ya están marchando.&#10;&#10;{BALANCE_REPORT}&#10;&#10;¿Te unirás a la rebelión o estarás con la corona?" />
     <string id="BC_CivilWar_PlayerCall_HonorOath" text="Honra tu juramento" />
-    <string id="BC_CivilWar_PlayerCall_Join" text=" ⁇ nete a la Rebelión" />
+    <string id="BC_CivilWar_PlayerCall_Join" text="Unirse a la rebelión" />
     <string id="BC_CivilWar_PlayerCall_Crown" text="De pie con la corona" />
     <string id="BC_CivilWar_PlayerCall_JoinedMsg" text="Respondes a la citación de {LIEGE_NAME}. Sus banderas ahora vuelan con la rebelión contra la corona." />
     <string id="BC_CivilWar_PlayerCall_LoyalMsg" text="Rechazas la convocatoria de {LIEGE_NAME} y te quedas con la corona. Su elección no será olvidada pronto." />
@@ -2161,7 +2161,7 @@
     <string id="BC_Ideology_EffectLabel_FoodStocks" text="poblaciones de alimentos" />
     <string id="BC_Ideology_EffectLabel_Hearth" text="corazón" />
     <string id="BC_Ideology_EffectLabel_Prosperity" text="prosperidad" />
-    <string id="BC_Ideology_EffectLabel_Denars" text="denarios" />
+    <string id="BC_Ideology_EffectLabel_Denars" text="denares" />
     <string id="BC_Ideology_EffectLabel_Armies" text="ejércitos" />
     <string id="BC_Ideology_EffectLabel_EliteCavalry" text="caballería de élite" />
     <string id="BC_Ideology_EffectLabel_TheCrown" text="La corona" />
@@ -2261,9 +2261,9 @@
     <string id="BC_Parley_Term_TransferFief" text="Transferir {FIEF_NAME}: {FROM_REALM} a {TO_REALM}" />
     <string id="BC_Parley_Term_ReparationsDirectional" text="{FROM_REALM} paga {TO_REALM} {GOLD} denars en reparaciones" />
     <string id="BC_Parley_Term_TributeDirectional" text="{FROM_REALM} paga {TO_REALM} {GOLD} denars/day para días {DAYS}" />
-    <string id="BC_Parley_PredictedRatified" text="Resultado previsto: RATIFICACI ⁇ N DEL TRATADO" />
+    <string id="BC_Parley_PredictedRatified" text="Resultado previsto: TRATADO RATIFICADO" />
     <string id="BC_Parley_PredictedRejected" text="Resultado previsto: rechazo del tratado" />
-    <string id="BC_Parley_ForcedCapitulation" text="CAPITULACI ⁇ N FUERZA" />
+    <string id="BC_Parley_ForcedCapitulation" text="CAPITULACIÓN FORZADA" />
     <string id="BC_Parley_CouncilRatified" text="RATIFICADO" />
     <string id="BC_Parley_RulerOverride" text="RATIFIED BY REGLER OVERRIDE (influencia {COST})" />
     <string id="BC_Parley_QuorumFailed" text="REEMBOLSO: QUORUM NO MET" />
@@ -2328,7 +2328,7 @@
     <string id="BC_Treaty_AllianceEndedByTreaty" text="Bajo los términos de paz acordados con {DEMANDING_REALM}, {CONCEDING_REALM} ha terminado formalmente su alianza con {THIRD_REALM}." />
     <string id="BC_Parley_RulerOnlyDrafting" text="Solo el gobernante puede alterar los términos del tratado." />
     <string id="BC_Parley_WarScoreCost" text="{VALUE}" />
-    <string id="BC_Parley_ReparationsDraft" text="Reparaciones: {GOLD} denarios" />
+    <string id="BC_Parley_ReparationsDraft" text="Reparaciones: {GOLD} denares" />
     <string id="BC_Parley_TributeDraft" text="Homenaje: {GOLD} denars/day para los días {DAYS}" />
     <string id="BC_Parley_WealthCost" text="{COST}" />
     <string id="BC_Parley_CouncilForcedMood" text="Los señores de {REALM} no tienen más remedio que aceptar estos términos." />
@@ -2346,7 +2346,7 @@
     <string id="BC_Parley_OutcomeCouncilRejectedBody" text="El tratado propuesto entre {FIRST_REALM} y {SECOND_REALM} no logró asegurar el asentimiento de ambos reinos. El parley ha terminado sin acuerdo, y la guerra continúa." />
     <string id="BC_Parley_OutcomeCancelledBody" text="El tratado propuesto entre {FIRST_REALM} y {SECOND_REALM} ya no es válido porque la guerra o una de sus partes ha dejado de existir. El parley obsoleto ha sido descartado." />
     <string id="BC_Parley_MajorityFailed" text="Rechazado: NAY MAJORITY" />
-    <string id="BC_Parley_CouncilStatus" text="{REALM}: {STATUS}&#10;YAY {YAY} / NAY {NAY}  ⁇  Participación {PARTICIPATION}/{QUORUM}" />
+    <string id="BC_Parley_CouncilStatus" text="{REALM}: {STATUS}&#10;A FAVOR {YAY} / EN CONTRA {NAY} | Participación {PARTICIPATION}/{QUORUM}" />
     <string id="BC_Parley_PredictedOutcomeHint" text="{FIRST_REALM}&#10;&#10;{SECOND_REALM}" />
     <string id="BC_Parley_VoteUndecided" text="SIN DECIDIR" />
     <string id="BC_Parley_YourVote" text="Tu voto: {VALUE}" />
@@ -2362,7 +2362,7 @@
     <string id="BC_Parley_DraftedTermsBudget" text="Términos redactados ({USED} / {BUDGET} WS)" />
     <string id="BC_Parley_Term_WhitePeace" text="Paz blanca" />
     <string id="BC_Parley_Term_RetainFief" text="Conservar {FIEF_NAME}" />
-    <string id="BC_Parley_Term_Reparations" text="Reparaciones: {GOLD} denarios" />
+    <string id="BC_Parley_Term_Reparations" text="Reparaciones: {GOLD} denares" />
     <string id="BC_Parley_Term_Tribute" text="Homenaje: {GOLD} denars/day para los días {DAYS}" />
     <string id="BC_Parley_FiefStrongClaimantHint" text="{CLAN_NAME} tiene un fuerte reclamo de este feudo." />
     <string id="BC_Parley_FiefWeakClaimantHint" text="{CLAN_NAME} tiene un reclamo débil a este feudo." />
@@ -2528,11 +2528,11 @@
 
     <!-- Release localization audit additions -->
     <string id="BC_MCM_Group_Notifications" text="Notificaciones" />
-    <string id="BC_MCM_Notifications" text="Notificaciones Bellum Civile" />
-    <string id="BC_MCM_Notifications_Hint" text="Deshabilitado: oculta mensajes de chat opcionales de Bellum Civile. Solo reino: muestra eventos políticos que involucran a tu reino, bando rebelde o clan. Global: muestra eventos políticos Bellum Civile de todos los reinos. Predeterminado: Reino solamente." />
-    <string id="BC_MCM_NotifDisabled" text="Desactivado" />
-    <string id="BC_MCM_NotifKingdomOnly" text="Sólo Reino" />
-    <string id="BC_MCM_NotifGlobal" text="Mundial" />
+    <string id="BC_MCM_Notifications" text="Notificaciones de Bellum Civile" />
+    <string id="BC_MCM_Notifications_Hint" text="Desactivadas: oculta los mensajes opcionales de Bellum Civile. Solo tu reino: muestra los eventos políticos de tu reino, bando rebelde o clan. Todos los reinos: muestra los eventos políticos de Bellum Civile de todos los reinos. Valor predeterminado: Solo tu reino." />
+    <string id="BC_MCM_NotifDisabled" text="Desactivadas" />
+    <string id="BC_MCM_NotifKingdomOnly" text="Solo tu reino" />
+    <string id="BC_MCM_NotifGlobal" text="Todos los reinos" />
     <string id="BC_Tribunal_Remaining" text="Los clanes derrotados de {COUNT} aún esperan juicio en este tribunal, incluido este." />
     <string id="BC_CivilWar_CollapseStalemate" text="Con ambos lados despojados de sus últimos bastiones, la guerra civil chisporrotea. Los rebeldes regresan al redil, aunque el reino está roto y sin tierra." />
     <string id="BC_CivilWar_LoyalistCollapse_Title" text="El reino leal se derrumba" />
@@ -3036,7 +3036,7 @@
     <string id="BC_Council_VacancyExcused" text="Vacante: reino demasiado pequeño para sostener esta oficina" />
     <string id="BC_Council_VacancyGrace" text="Vacante: período de gracia ({DAYS}/7 días)" />
     <string id="BC_Council_VacancyPressure" text="Vacante: generando controversia gobernante" />
-    <string id="BC_Council_OfficeHint" text="{ROLE}&#10;&#10;{COMPETENCE}&#10;{SUPPORT}&#10;{CONTROVERSY}&#10;{SALARY}&#10;Recuperación diaria: {RECOVERY}&#10; ⁇ ltimo desarrollo: {LAST_REASON} ({LAST_CHANGE})" />
+    <string id="BC_Council_OfficeHint" text="{ROLE}&#10;&#10;{COMPETENCE}&#10;{SUPPORT}&#10;{CONTROVERSY}&#10;{SALARY}&#10;Recuperación diaria: {RECOVERY}&#10;Último desarrollo: {LAST_REASON} ({LAST_CHANGE})" />
     <string id="BC_Council_Salary" text="Salario diario: {VALUE}" />
     <string id="BC_Council_NoRecentDevelopment" text="Ninguno registrado" />
     <string id="BC_Council_TooltipOffice" text="Oficina" />
@@ -3045,9 +3045,9 @@
     <string id="BC_Council_TooltipSupport" text="Apoyo" />
     <string id="BC_Council_TooltipControversy" text="Controversia" />
     <string id="BC_Council_TooltipSalary" text="Salario diario" />
-    <string id="BC_Council_Denars" text="denarios" />
+    <string id="BC_Council_Denars" text="denares" />
     <string id="BC_Council_TooltipRecovery" text="Recuperación diaria" />
-    <string id="BC_Council_TooltipLastDevelopment" text=" ⁇ ltimo desarrollo" />
+    <string id="BC_Council_TooltipLastDevelopment" text="Último desarrollo" />
     <string id="BC_Council_CompetenceInapt" text="Inapt" />
     <string id="BC_Council_CompetenceMediocre" text="Mediocre" />
     <string id="BC_Council_CompetenceAverage" text="Promedio" />
@@ -3194,9 +3194,9 @@
     <string id="BC_Council_AssignmentStatusImproveForeignRelations" text="Construye aproximadamente la relación {RELATION} cada semana con el gobernante vecino más alejado en paz con el reino, deteniéndose en +25. Genera controversia canciller {CONTROVERSY} cada semana." />
     <string id="BC_Council_AssignmentStatusFabricateGrievances" text="La fabricación de reclamos de clanes gobernantes es {PROGRESS}% más rápida, con puntos porcentuales adicionales de riesgo de descubrimiento {DISCOVERY}. Genera controversia canciller {CONTROVERSY} cada semana." />
     <string id="BC_Council_AssignmentStatusAuditVassals" text="Los ingresos por servicios feudales que alcanzan la corona se incrementan en un {SERVICE}%. Genera controversia Seneschal {CONTROVERSY} cada semana." />
-    <string id="BC_Council_AssignmentStatusSubsidizeInfrastructure" text="Proporciona +{CONSTRUCTION}% de construcción en fortalezas {STRONGHOLDS} mientras está totalmente financiado. costo diario: denarios {COST}." />
-    <string id="BC_Council_AssignmentStatusStockpileProvisions" text="Proporciona hasta +{FOOD} comida por día en bastiones {STRONGHOLDS} mientras está totalmente financiado. costo diario: denarios {COST}." />
-    <string id="BC_Council_AssignmentStatusStockpileProvisionsHap" text="Requisitos de hasta {PERCENT}% de alimentos de mercado elegibles en los graneros de fortalezas {STRONGHOLDS} cada día mientras están totalmente financiados. Las transferencias reales dependen de la oferta del mercado y de la capacidad de granero disponible. costo diario: denarios {COST}." />
+    <string id="BC_Council_AssignmentStatusSubsidizeInfrastructure" text="Proporciona +{CONSTRUCTION}% de construcción en fortalezas {STRONGHOLDS} mientras está totalmente financiado. costo diario: denares {COST}." />
+    <string id="BC_Council_AssignmentStatusStockpileProvisions" text="Proporciona hasta +{FOOD} comida por día en bastiones {STRONGHOLDS} mientras está totalmente financiado. costo diario: denares {COST}." />
+    <string id="BC_Council_AssignmentStatusStockpileProvisionsHap" text="Requisitos de hasta {PERCENT}% de alimentos de mercado elegibles en los graneros de fortalezas {STRONGHOLDS} cada día mientras están totalmente financiados. Las transferencias reales dependen de la oferta del mercado y de la capacidad de granero disponible. costo diario: denares {COST}." />
     <string id="BC_Council_AssignmentStatusCounterEspionage" text="Proporciona intriga defensiva +{DEFENSE} y puntos porcentuales +{DISCOVERY} al descubrimiento de reclamos hostiles, mientras impone intriga ofensiva -{OFFENSE}." />
     <string id="BC_Council_AssignmentStatusUncoverDissent" text="Las conspiraciones rebeldes encubiertas crecen {SUPPRESSION}% más lento y el descubrimiento de reclamos hostiles gana {DISCOVERY} puntos porcentuales. Genera controversia Spymaster {CONTROVERSY} cada semana." />
     <string id="BC_Council_AssignmentStatusSowRumors" text="Proporciona intriga ofensiva +{OFFENSE} contra tribunales rivales, mientras impone intriga defensiva -{DEFENSE}. Genera controversia Spymaster {CONTROVERSY} cada semana." />
@@ -3267,10 +3267,10 @@
     <string id="BC_Council_AssignmentAuditVassals" text="Vasallos de auditoría" />
     <string id="BC_Council_AssignmentAuditVassalsHint" text="En la competencia promedio: +10% de ingresos feudales por servicios que alcanzan la corona. Crea 1 controversia {OFFICE} cada semana." />
     <string id="BC_Council_AssignmentSubsidizeInfrastructure" text="Subvención Infraestructura" />
-    <string id="BC_Council_AssignmentSubsidizeInfrastructureHint" text="En la competencia promedio: + 10% de construcción en todo el reino. El gobernante paga 50 denarios por ciudad o castillo cada día. No se aplica ningún beneficio a menos que se pueda pagar el costo diario completo." />
+    <string id="BC_Council_AssignmentSubsidizeInfrastructureHint" text="Con una competencia media: +10% de construcción en todo el reino. El gobernante paga 50 denares diarios por ciudad o castillo. No se aplica ningún beneficio si no se puede pagar el costo diario completo." />
     <string id="BC_Council_AssignmentStockpileProvisions" text="Provisiones de stock" />
-    <string id="BC_Council_AssignmentStockpileProvisionsHint" text="En la competencia promedio: hasta 2 alimentos diarios por bastión a un costo de 30 dinares por bastión cada día. No se aplica ningún beneficio a menos que se pueda pagar el costo diario completo." />
-    <string id="BC_Council_AssignmentStockpileProvisionsHapHint" text="En la competencia promedio: requisiciones de hasta el 2% de alimentos elegibles en el granero de cada fortaleza todos los días. Las transferencias reales dependen de la oferta del mercado y de la capacidad de granero disponible. El gobernante paga 30 dinares por fortaleza cada día, y no se produce ninguna requisición a menos que se pueda pagar el costo diario completo." />
+    <string id="BC_Council_AssignmentStockpileProvisionsHint" text="En la competencia promedio: hasta 2 alimentos diarios por bastión a un costo de 30 denares por bastión cada día. No se aplica ningún beneficio a menos que se pueda pagar el costo diario completo." />
+    <string id="BC_Council_AssignmentStockpileProvisionsHapHint" text="En la competencia promedio: requisiciones de hasta el 2% de alimentos elegibles en el granero de cada fortaleza todos los días. Las transferencias reales dependen de la oferta del mercado y de la capacidad de granero disponible. El gobernante paga 30 denares por fortaleza cada día, y no se produce ninguna requisición a menos que se pueda pagar el costo diario completo." />
 
     <string id="BC_Council_AssignmentCounterEspionage" text="Contraespionaje" />
     <string id="BC_Council_AssignmentCounterEspionageHint" text="En la competencia promedio: +15 intriga defensiva, +5 puntos porcentuales para el descubrimiento de reclamos hostiles y -5 intriga ofensiva." />
@@ -3824,7 +3824,7 @@
     <string id="BC_CouncilIncident_CourtParanoia_ResultEndorseSuccess" text="Las órdenes selladas distinguen a los agentes autorizados de los sospechosos genuinos, permitiendo que las operaciones extranjeras se reanuden sin debilitar el reloj interno." />
     <string id="BC_CouncilIncident_CourtParanoia_ResultOppose" text="Usted mantiene las precauciones actuales. El jefe de espionaje deja las operaciones extranjeras limitadas por la sospecha del tribunal." />
     <string id="BC_CouncilIncident_CourtParanoia_Title" text="La paranoia en la Corte" />
-    <string id="BC_CouncilIncident_DoubleAgent_Abstain" text=" ⁇ salo solo para organizar un intercambio controlado." />
+    <string id="BC_CouncilIncident_DoubleAgent_Abstain" text="Úsalo solo para organizar un intercambio controlado." />
     <string id="BC_CouncilIncident_DoubleAgent_Description" text="{SPYMASTER_NAME}, tu spymaster, informa que un agente extranjero atrapado comprando sellos y registros genealógicos se ha ofrecido a traicionar a sus manipuladores a cambio de protección. Devuelto con información convincente, podría exponer todos los intentos de fabricar reclamos contra el reino. Si sus antiguos amos sospechan del engaño, pueden usarlo para alimentar a su corte precisamente lo que desean que crea." />
     <string id="BC_CouncilIncident_DoubleAgent_Effect" text="descubrimiento de reclamación hostil" />
     <string id="BC_CouncilIncident_DoubleAgent_Endorse" text="Devuelva al agente con registros falsos e instrucciones secretas." />
@@ -4021,13 +4021,13 @@
     <string id="BC_CouncilIncident_Sycophant_ResultOppose" text="Rechazas la investigación. El consejero retira la acusación y el abogado continúa como antes." />
     <string id="BC_CouncilIncident_Sycophant_Title" text="El Sycophant" />
     <string id="BC_CouncilIncident_ResultFailed" text="La propuesta del Consejo no pudo llevarse a cabo." />
-    <string id="BC_Hierarchy_UsurpSovereignChooseDesc" text="Usar el {TITLE_NAME} costará denarios {GOLD_COST} y la influencia {INFLUENCE_COST}. Un vasallo no puede tener un título igual o superior al título soberano de su señor. Elige si renunciar a las tenencias fuera de la jerarquía legal del nuevo título y salir pacíficamente, o retenerlos y luchar contra su antiguo reino." />
+    <string id="BC_Hierarchy_UsurpSovereignChooseDesc" text="Usar el {TITLE_NAME} costará denares {GOLD_COST} y la influencia {INFLUENCE_COST}. Un vasallo no puede tener un título igual o superior al título soberano de su señor. Elige si renunciar a las tenencias fuera de la jerarquía legal del nuevo título y salir pacíficamente, o retenerlos y luchar contra su antiguo reino." />
     <string id="BC_Hierarchy_UsurpSovereignPeaceful" text="Renuncia y Salida" />
     <string id="BC_Hierarchy_UsurpSovereignPeacefulHint" text="Devuelve los asentamientos de {SETTLEMENT_COUNT} y los títulos superiores de {UPPER_TITLE_COUNT} fuera de la jerarquía legal del nuevo título a tu reino anterior. Los asentamientos entrarán en los votos normales de concesión de tierras, los títulos superiores pasarán a la antigua casa gobernante, sus reclamos a todos los títulos renunciados serán eliminados y no comenzará ninguna guerra." />
     <string id="BC_Hierarchy_UsurpSovereignDefy" text="Conservar Holdings y Defy" />
     <string id="BC_Hierarchy_UsurpSovereignDefyHint" text="Conserva todos los títulos y asentamientos que tu clan tenga. Su nuevo reino entrará inmediatamente en una guerra de separación contra su antiguo reino, y las relaciones con el viejo reino sufrirán en consecuencia." />
     <string id="BC_Hierarchy_UsurpSovereignTitle" text="Reclamar un título soberano" />
-    <string id="BC_Hierarchy_UsurpSovereignDirectDesc" text="Usar el {TITLE_NAME} costará denarios {GOLD_COST} y la influencia {INFLUENCE_COST}. Debido a que este título iguala o supera el título soberano de tu reino, tu clan se irá pacíficamente para gobernarlo como un reino independiente. ¿Proceder?" />
+    <string id="BC_Hierarchy_UsurpSovereignDirectDesc" text="Usar el {TITLE_NAME} costará denares {GOLD_COST} y la influencia {INFLUENCE_COST}. Debido a que este título iguala o supera el título soberano de tu reino, tu clan se irá pacíficamente para gobernarlo como un reino independiente. ¿Proceder?" />
     <string id="BC_Hierarchy_FormSovereignChooseDesc" text="{FORMATION_DESC}&#10;&#10;Este nuevo título iguala o supera el título soberano de su señor. Elige si renunciar a las tenencias fuera de su jerarquía legal y partir pacíficamente, o retenerlas y luchar contra tu antiguo reino." />
     <string id="BC_Hierarchy_FormSovereignDirectWarning" text="&#10;&#10;Este título iguala o supera el título soberano de su señor. Tu clan se irá pacíficamente para gobernarlo como un reino independiente." />
     <string id="BC_Hierarchy_FormSovereignTitle" text="Formar un título soberano" />
@@ -4035,30 +4035,30 @@
     <string id="BC_Notification_SovereignElevationDefiant" text="Habiendo asegurado el {TITLE_NAME}, {RULER_NAME} ha proclamado {NEW_REALM} independiente de {FORMER_REALM}. Negándose a renunciar a sus antiguas posesiones, el nuevo soberano ahora se enfrenta a su antiguo reino en guerra." />
     <string id="BC_Notification_SovereignElevationPeaceful" text="Habiendo asegurado el {TITLE_NAME}, {RULER_NAME} ha separado pacíficamente {NEW_REALM} de {FORMER_REALM}. Tierras fuera de la jerarquía legal del nuevo título han sido devueltas al antiguo reino." />
     <string id="BC_Fief_Delib_SovereignSeparationAnnouncement" text="Tras la separación pacífica del {CLAN_NAME}, el {SETTLEMENT_NAME} ha regresado a la Corona. El tribunal deliberará sobre su nuevo titular y pedirá una votación dentro de los días {DAYS}." />
-    <string id="BC_MCM_Group_Mercenaries" text="Compañías Mercenarias" />
-    <string id="BC_MCM_DynamicMercenaryCompanyLimit" text="Compañías de mercenarios máximos dinámicos" />
-    <string id="BC_MCM_DynamicMercenaryCompanyLimit_Hint" text="Número máximo de compañías mercenarias creadas por Bellum que pueden estar activas a la vez. Un valor de 0 desactiva nuevas salidas y formaciones mercenarias. Las compañías existentes no se destruyen si se reduce el límite. Predeterminado: 10." />
-    <string id="BC_MCM_DynamicMercenaryEvaluationYears" text="Intervalo de evaluación noble" />
-    <string id="BC_MCM_DynamicMercenaryEvaluationYears_Hint" text="Años entre evaluaciones de cada casa noble para salidas mercenarias potenciales. Las evaluaciones se distribuyen a lo largo del intervalo para evitar un solo pulso de campaña grande. Valor predeterminado: 5 años." />
-    <string id="BC_MCM_DynamicMercenaryMaximumOfficers" text="Nobles máximos de la compañía" />
-    <string id="BC_MCM_DynamicMercenaryMaximumOfficers_Hint" text="Número máximo de nobles adultos fugitivos aceptados por cada compañía dinámica. Los dependientes no se cuentan. Valor predeterminado: 3." />
-    <string id="BC_MCM_DynamicMercenaryStartingTier" text="Nivel de compañía inicial" />
-    <string id="BC_MCM_DynamicMercenaryStartingTier_Hint" text="Nivel de clan asignado a una compañía mercenaria dinámica recién fundada. Los niveles más bajos limitan su número inicial de grupos y el costo de la campaña. Valor predeterminado: 2." />
+    <string id="BC_MCM_Group_Mercenaries" text="Compañías mercenarias" />
+    <string id="BC_MCM_DynamicMercenaryCompanyLimit" text="Máximo de compañías mercenarias dinámicas" />
+    <string id="BC_MCM_DynamicMercenaryCompanyLimit_Hint" text="Cantidad máxima de compañías mercenarias creadas por Bellum que pueden estar activas a la vez. Un valor de 0 impide nuevas partidas de nobles como mercenarios y nuevas formaciones de compañías. Reducir el límite no destruye las compañías existentes. Valor predeterminado: 10." />
+    <string id="BC_MCM_DynamicMercenaryEvaluationYears" text="Intervalo de evaluación de las casas nobles" />
+    <string id="BC_MCM_DynamicMercenaryEvaluationYears_Hint" text="Años entre las evaluaciones de cada casa noble para detectar posibles partidas de nobles como mercenarios. Las evaluaciones se distribuyen a lo largo del intervalo para evitar un único pico grande de procesamiento de la campaña. Valor predeterminado: 5 años." />
+    <string id="BC_MCM_DynamicMercenaryMaximumOfficers" text="Máximo de nobles por compañía" />
+    <string id="BC_MCM_DynamicMercenaryMaximumOfficers_Hint" text="Cantidad máxima de nobles adultos fugitivos que acepta cada compañía dinámica. No se cuentan sus dependientes. Valor predeterminado: 3." />
+    <string id="BC_MCM_DynamicMercenaryStartingTier" text="Nivel inicial de las compañías" />
+    <string id="BC_MCM_DynamicMercenaryStartingTier_Hint" text="Nivel de clan asignado a una compañía mercenaria dinámica recién fundada. Los niveles más bajos limitan su cantidad inicial de grupos y su costo de campaña. Valor predeterminado: 2." />
     <string id="BC_DynamicMercenaryCompanyFounded" text="Buscando {?HERO.GENDER}ella{?}su{\?} propia fortuna, {HERO.NAME} ha dejado el {SOURCE_CLAN} para fundar el {COMPANY}." />
     <string id="BC_DynamicMercenaryCompanyJoined" text="En busca de aventuras y riquezas, {HERO.NAME} ha dejado el {SOURCE_CLAN} para firmar con el {COMPANY}." />
     <string id="BC_DynamicMercenaryDeparture_Opening" text="{KIN_ADDRESS}, quería hablar con usted. He decidido buscar mi propia fortuna como mercenario. No me iría sin hablar con usted primero. Espero que lo entiendas." />
-    <string id="BC_DynamicMercenaryDeparture_Support" text="Tienen mi bendición y el apoyo de nuestra casa. Tome estos denarios para el camino." />
-    <string id="BC_DynamicMercenaryDeparture_SupportReply" text="Muchas gracias. No olvidaré esto, y honraré nuestro nombre dondequiera que la fortuna me lleve." />
+    <string id="BC_DynamicMercenaryDeparture_Support" text="Tienen mi bendición y el apoyo de nuestra casa. Tome estos denares para el camino." />
+    <string id="BC_DynamicMercenaryDeparture_SupportReply" text="Gracias. No lo olvidaré y honraré nuestro nombre adondequiera que me lleve la fortuna.[if:convo_happy]" />
     <string id="BC_DynamicMercenaryDeparture_Bless" text="Veo que tu mente está hecha. Ve con mi bendición, entonces." />
-    <string id="BC_DynamicMercenaryDeparture_BlessReply" text="Muchas gracias. Enviaré un mensaje cuando haya encontrado mi lugar.[if:convo ⁇ happy]" />
+    <string id="BC_DynamicMercenaryDeparture_BlessReply" text="Gracias. Enviaré noticias cuando haya encontrado mi lugar.[if:convo_happy]" />
     <string id="BC_DynamicMercenaryDeparture_AskStay" text="Entiendo por qué esto te llama, pero preferiría que permanecieras con nuestra familia. ¿Lo reconsiderarás?" />
-    <string id="BC_DynamicMercenaryDeparture_AskStayAccept" text="Por tu bien, me quedaré. Tal vez todavía hay un lugar para mí aquí. [if:convo ⁇ grave]" />
-    <string id="BC_DynamicMercenaryDeparture_AskStayRefuse" text="Respeto su preocupación, pero estoy decidido. Debo seguir este camino.[if:convo ⁇ grave]" />
+    <string id="BC_DynamicMercenaryDeparture_AskStayAccept" text="Por ti, me quedaré. Quizá aún haya un lugar para mí aquí.[if:convo_grave]" />
+    <string id="BC_DynamicMercenaryDeparture_AskStayRefuse" text="Respeto tu preocupación, pero ya tomé una decisión. Debo seguir este camino.[if:convo_grave]" />
     <string id="BC_DynamicMercenaryDeparture_Forbid" text="Yo goberno esta casa, y tú no irás. Lo prohíbo." />
-    <string id="BC_DynamicMercenaryDeparture_ForbidStay" text="Como tú mandas. Pero no me pidas que me alegre de ello. [if: convo ⁇ grave]" />
-    <string id="BC_DynamicMercenaryDeparture_ForbidLeave" text="No. Mi vida es mía, y no la entregaré a tus órdenes. Despedida.[if:convo ⁇ angry]" />
-    <string id="BC_DynamicMercenaryDeparture_SupportUnavailable" text="Usted necesita denarios {GOLD} para apoyar esta empresa." />
-    <string id="BC_DynamicMercenaryDeparture_SupportCost" text="Esto le dará denarios {GOLD} a su pariente." />
+    <string id="BC_DynamicMercenaryDeparture_ForbidStay" text="Como ordenes. Pero no me pidas que me alegre por ello.[if:convo_grave]" />
+    <string id="BC_DynamicMercenaryDeparture_ForbidLeave" text="No. Mi vida me pertenece y no la someteré a tus órdenes. Adiós.[if:convo_angry]" />
+    <string id="BC_DynamicMercenaryDeparture_SupportUnavailable" text="Usted necesita denares {GOLD} para apoyar esta empresa." />
+    <string id="BC_DynamicMercenaryDeparture_SupportCost" text="Esto le dará denares {GOLD} a su pariente." />
     <string id="BC_DynamicMercenaryDeparture_LetterTitle" text="Un adiós de {HERO}" />
     <string id="BC_DynamicMercenaryDeparture_LetterFounded" text="{HERO} ha dejado el {SOURCE_CLAN} para fundar el {COMPANY}." />
     <string id="BC_DynamicMercenaryDeparture_LetterJoined" text="{HERO} ha dejado el {SOURCE_CLAN} para firmar con el {COMPANY}." />
@@ -4101,36 +4101,36 @@
     <string id="BC_Hierarchy_TitleOptions" text="Opciones" />
     <string id="BC_Fabrication_CurrentStageValue" text="{STAGE} ({CHANCE}% de éxito)" />
     <string id="BC_Relation_HouseMemberPrisoner" text="Sosteniendo a un miembro de la otra casa preso: {DELTA}" />
-    <string id="BC_MCM_Group_Childhood" text="Adultez y educación a medida" />
-    <string id="BC_MCM_CustomEducationToggle_Hint" text="Personalizar la edad adulta y las seis edades de la educación infantil. Cuando está desactivado, la edad adulta del juego base y las edades de educación se restauran. Requiere un reinicio. Predeterminado: Activado." />
-    <string id="BC_MCM_EducationAge1" text="Educación Hito 1 Edad" />
-    <string id="BC_MCM_EducationAge1_Hint" text="Edad para la educación infantil etapa 1. Las edades se mantienen en orden creciente y por debajo de la edad adulta; los valores conflictivos se ajustan automáticamente. Las opciones y recompensas permanecen sin cambios. Requiere un reinicio. Valores valor predeterminado: Bellum: 2 años; juego base: 2 años." />
-    <string id="BC_MCM_EducationAge2" text="Educación Hito 2 Edad" />
-    <string id="BC_MCM_EducationAge2_Hint" text="Edad para la etapa de educación infantil 2. Las edades se mantienen en orden creciente y por debajo de la edad adulta; los valores conflictivos se ajustan automáticamente. Las opciones y recompensas permanecen sin cambios. Requiere un reinicio. Valores valor predeterminado: Bellum: 5 años; juego base: 5 años." />
-    <string id="BC_MCM_EducationAge3" text="Educación Hito 3 Edad" />
-    <string id="BC_MCM_EducationAge3_Hint" text="Edad para la educación infantil etapa 3. Las edades se mantienen en orden creciente y por debajo de la edad adulta; los valores conflictivos se ajustan automáticamente. Las opciones y recompensas permanecen sin cambios. Requiere un reinicio. Valores valor predeterminado: Bellum: 8 años; juego base: 8 años." />
-    <string id="BC_MCM_EducationAge4" text="Educación Hito 4 Edad" />
-    <string id="BC_MCM_EducationAge4_Hint" text="Edad para la educación infantil etapa 4. Las edades se mantienen en orden creciente y por debajo de la edad adulta; los valores conflictivos se ajustan automáticamente. Las opciones y recompensas permanecen sin cambios. Requiere un reinicio. Valores valor predeterminado: Bellum: 10 años; juego base: 11 años." />
-    <string id="BC_MCM_EducationAge5" text="Hito de la educación 5 años" />
-    <string id="BC_MCM_EducationAge5_Hint" text="Edad para la educación infantil etapa 5. Las edades se mantienen en orden creciente y por debajo de la edad adulta; los valores conflictivos se ajustan automáticamente. Las opciones y recompensas permanecen sin cambios. Requiere un reinicio. Valores valor predeterminado: Bellum: 13 años; juego base: 14 años." />
-    <string id="BC_MCM_EducationAge6" text="Educación Hito 6 Edad" />
-    <string id="BC_MCM_EducationAge6_Hint" text="Edad para la etapa de educación infantil 6. Las edades se mantienen en orden creciente y por debajo de la edad adulta; los valores conflictivos se ajustan automáticamente. Las opciones y recompensas permanecen sin cambios. Requiere un reinicio. Valores valor predeterminado: Bellum: 15 años; juego base: 16 años." />
+    <string id="BC_MCM_Group_Childhood" text="Mayoría de edad y educación personalizadas" />
+    <string id="BC_MCM_CustomEducationToggle_Hint" text="Personaliza la mayoría de edad y las edades de las seis etapas educativas de la infancia. Al desactivar esta opción, se restablecen las edades de mayoría de edad y educación del juego base. Requiere reiniciar el juego. Valor predeterminado: activado." />
+    <string id="BC_MCM_EducationAge1" text="Edad del hito educativo 1" />
+    <string id="BC_MCM_EducationAge1_Hint" text="Edad de la etapa educativa infantil 1. Las edades se mantienen en orden creciente y por debajo de la mayoría de edad; los valores incompatibles se ajustan automáticamente. Las elecciones y recompensas no cambian. Requiere reiniciar el juego. Valores predeterminados: Bellum: 2 años; juego base: 2 años." />
+    <string id="BC_MCM_EducationAge2" text="Edad del hito educativo 2" />
+    <string id="BC_MCM_EducationAge2_Hint" text="Edad de la etapa educativa infantil 2. Las edades se mantienen en orden creciente y por debajo de la mayoría de edad; los valores incompatibles se ajustan automáticamente. Las elecciones y recompensas no cambian. Requiere reiniciar el juego. Valores predeterminados: Bellum: 5 años; juego base: 5 años." />
+    <string id="BC_MCM_EducationAge3" text="Edad del hito educativo 3" />
+    <string id="BC_MCM_EducationAge3_Hint" text="Edad de la etapa educativa infantil 3. Las edades se mantienen en orden creciente y por debajo de la mayoría de edad; los valores incompatibles se ajustan automáticamente. Las elecciones y recompensas no cambian. Requiere reiniciar el juego. Valores predeterminados: Bellum: 8 años; juego base: 8 años." />
+    <string id="BC_MCM_EducationAge4" text="Edad del hito educativo 4" />
+    <string id="BC_MCM_EducationAge4_Hint" text="Edad de la etapa educativa infantil 4. Las edades se mantienen en orden creciente y por debajo de la mayoría de edad; los valores incompatibles se ajustan automáticamente. Las elecciones y recompensas no cambian. Requiere reiniciar el juego. Valores predeterminados: Bellum: 10 años; juego base: 11 años." />
+    <string id="BC_MCM_EducationAge5" text="Edad del hito educativo 5" />
+    <string id="BC_MCM_EducationAge5_Hint" text="Edad de la etapa educativa infantil 5. Las edades se mantienen en orden creciente y por debajo de la mayoría de edad; los valores incompatibles se ajustan automáticamente. Las elecciones y recompensas no cambian. Requiere reiniciar el juego. Valores predeterminados: Bellum: 13 años; juego base: 14 años." />
+    <string id="BC_MCM_EducationAge6" text="Edad del hito educativo 6" />
+    <string id="BC_MCM_EducationAge6_Hint" text="Edad de la etapa educativa infantil 6. Las edades se mantienen en orden creciente y por debajo de la mayoría de edad; los valores incompatibles se ajustan automáticamente. Las elecciones y recompensas no cambian. Requiere reiniciar el juego. Valores predeterminados: Bellum: 15 años; juego base: 16 años." />
     <string id="BC_Education_BirthdayGift" text="Cuando {CHILD.NAME} convirtió {EDUCATION_AGE}, le dio a {?CHILD.GENDER}her{?}him{\?} un regalo especial. Usted ha visto {?CHILD.GENDER}her{?}him{\?} atesorarlo y cree que dará forma a quién es {?CHILD.GENDER}she{?}he{\?}. Tú diste {?CHILD.GENDER}ella{?}él{\?}..." />
     <string id="BC_RealmRoot_NorthernCalradia" text="Norte Calradia" />
     <string id="BC_RealmRoot_WesternCalradia" text="Calradia occidental" />
     <string id="BC_RealmRoot_SouthernCalradia" text="Sur Calradia" />
     <string id="BC_Hierarchy_NoPossessor" text="Sin soporte de facto" />
     <string id="BC_Notification_TitleAssumed" text="Después de consolidar el control de sus tierras, {USURPER_NAME} de la {USURPER_CLAN} ha asumido la vacante {TITLE_NAME}, ejerciendo los derechos legales de la casa." />
-    <string id="BC_Hierarchy_AssumeConfirmDesc" text="Suponiendo que el {TITLE_NAME} vacante le costará denarios {GOLD_COST} y la influencia {INFLUENCE_COST}. Su casa ya posee el título legal y ahora ejercerá su autoridad. ¿Proceder?" />
-    <string id="BC_Hierarchy_AssumeHintEnabled" text="Asuma el {TITLE_NAME} vacante. Su propiedad legal reemplaza el requisito de reclamación. costo: denarios {GOLD_COST} y influencia {INFLUENCE_COST}. Títulos subordinados controlados: {CONTROLLED}/{TOTAL}." />
-    <string id="BC_Hierarchy_AssumeHintDisabled" text="No puede asumir el {TITLE_NAME} vacante: {REASON}&#10;&#10;Su casa ya posee el título legal. Debe controlar más de la mitad de sus títulos subordinados inmediatos y pagar los denarios de {GOLD_COST} y la influencia de {INFLUENCE_COST}. Controlado: {CONTROLLED}/{TOTAL}." />
+    <string id="BC_Hierarchy_AssumeConfirmDesc" text="Suponiendo que el {TITLE_NAME} vacante le costará denares {GOLD_COST} y la influencia {INFLUENCE_COST}. Su casa ya posee el título legal y ahora ejercerá su autoridad. ¿Proceder?" />
+    <string id="BC_Hierarchy_AssumeHintEnabled" text="Asuma el {TITLE_NAME} vacante. Su propiedad legal reemplaza el requisito de reclamación. costo: denares {GOLD_COST} y influencia {INFLUENCE_COST}. Títulos subordinados controlados: {CONTROLLED}/{TOTAL}." />
+    <string id="BC_Hierarchy_AssumeHintDisabled" text="No puede asumir el {TITLE_NAME} vacante: {REASON}&#10;&#10;Su casa ya posee el título legal. Debe controlar más de la mitad de sus títulos subordinados inmediatos y pagar los denares de {GOLD_COST} y la influencia de {INFLUENCE_COST}. Controlado: {CONTROLLED}/{TOTAL}." />
     <string id="BC_MercenaryFoundingDescription" text="En {DATE}, el {COMPANY} fue fundado por {FOUNDER}. La compañía estableció su base en {HOME}." />
     <string id="BC_MercenaryGeneralDescription" text="La {COMPANY} es una compañía mercenaria con sede en {HOME}, que ofrece sus espadas a aquellos que pueden pagar." />
     <string id="BC_MercenaryUnknownHome" text="Un acuerdo no registrado" />
     <string id="BC_MercenaryFounderDaughter" text="{NAME}, hija de {PARENT}" />
     <string id="BC_MercenaryFounderSon" text="{NAME}, hijo de {PARENT}" />
-    <string id="BC_MCM_MemoryDuration" text="Multiplicador de duración de memoria" />
-    <string id="BC_MCM_MemoryDuration_Hint" text="Escala la duración de los recuerdos cronometrados positivos y negativos. Los cambios ajustan proporcionalmente el tiempo restante de los recuerdos activos. Los recuerdos permanentes y las condiciones políticas en curso no se ven afectados. Predeterminado: 1x." />
+    <string id="BC_MCM_MemoryDuration" text="Multiplicador de la duración de los recuerdos" />
+    <string id="BC_MCM_MemoryDuration_Hint" text="Ajusta la duración de los recuerdos temporales positivos y negativos. Los cambios ajustan proporcionalmente el tiempo restante de los recuerdos activos. Los recuerdos permanentes y las condiciones políticas en curso no cambian. Valor predeterminado: 1x." />
     <string id="BC_RelationMemory_WarOfIndependence" text="Guerra de independencia" />
     <string id="BC_CourtPlayerCrisis" text="El {FACTION} de {REALM} exige que su agenda sea reemplazada por un desafío a la autoridad de {RULER}. Su sesión está programada para {DATE}. Puede aceptar o gastar la influencia de {COST} para restringir esta crisis ordinaria por el resto del término y mantener la agenda actual. La restricción cuesta la relación {RELATION} con las casas miembro. El descontento crítico en -100 todavía puede provocar una emergencia." />
     <string id="BC_CourtPlayerProposal" text="El {FACTION} de {REALM} propone: {MOTION}. Las deliberaciones están programadas para {DATE}. Aprobar para publicar este objetivo, sustituir para nominar una política a través del menú de reino dentro de días {DAYS} (a más tardar el día antes de la sesión), o bloquearla para influencia {COST} y relación {RELATION} con casas miembro. La presentación cuesta la influencia de {FILING}, pagadera cuando comienzan las deliberaciones, no ahora." />
@@ -4977,20 +4977,20 @@
     <string id="BC_CourtLibertyWar_Rule" text="-10 después de un cuarto de año en esta condición." />
     <string id="BC_CourtTributeReceived_Rule" text="+10 cuando el tributo neto es positivo." />
     <string id="BC_CourtTributePaid_Rule" text="-10 cuando el tributo neto es negativo." />
-    <string id="BC_CourtTrade_Rule" text="10 con un acuerdo comercial activo." />
+    <string id="BC_CourtTrade_Rule" text="+10 si existe un acuerdo comercial activo." />
     <string id="BC_CourtNoTrade_Rule" text="-10 sin un acuerdo comercial activo." />
     <string id="BC_CourtProsperity_Rule" text="+10 cuando la prosperidad media de la ciudad supera los 5000 y menos de una cuarta parte de las ciudades han agotado sus reservas de alimentos." />
     <string id="BC_CourtHunger_Rule" text="-15 cuando al menos una cuarta parte de las ciudades han agotado sus reservas de alimentos." />
     <string id="BC_CourtAlliances_Rule" text="+10 con una alianza extranjera." />
     <string id="BC_CourtNoAlliances_Rule" text="-10 sin una alianza extranjera." />
     <string id="BC_CourtInternalPeace_Rule" text="+10 sin guerra interna activa. Las conspiraciones no cuentan." />
-    <string id="BC_CourtInternalWar_Rule" text="15 durante una guerra civil o privada." />
+    <string id="BC_CourtInternalWar_Rule" text="-15 durante una guerra civil o una guerra por disputa privada." />
     <string id="BC_CourtLawfulEstates_Rule" text="+10 cuando cada baronía evaluada es mantenida por su propietario legal." />
     <string id="BC_CourtUnlawfulEstates_Rule" text="-10 cuando al menos una cuarta parte de las baronías evaluadas no están en manos de sus propietarios legales." />
-    <string id="BC_CourtConcentratedLand_Rule" text="El tercio más grande de las casas nobles no dominantes tiene al menos 1,8 veces su proporción de feudos. Requiere al menos tres casas." />
-    <string id="BC_CourtBroadLand_Rule" text="El tercio más grande de las casas nobles no dominantes no tiene más de 1,2 veces su proporción de feudos. Las casas sin tierra cuentan; el gobernante no." />
+    <string id="BC_CourtConcentratedLand_Rule" text="El tercio de las casas nobles no gobernantes con más tierras posee al menos 1.8 veces su proporción equitativa de feudos. Requiere al menos tres casas." />
+    <string id="BC_CourtBroadLand_Rule" text="El tercio de las casas nobles no gobernantes con más tierras posee como máximo 1.2 veces su proporción equitativa de feudos. Se cuentan las casas sin tierras, pero no la del gobernante." />
     <string id="BC_CourtOwnSeats_Rule" text="+5 por cada oficina del consejo ocupada por un miembro de esta facción." />
-    <string id="BC_CourtOtherSeats_Rule" text="5 por oficina del consejo ocupada sostenida por otra facción de la corte real. Estas sanciones se acumulan." />
+    <string id="BC_CourtOtherSeats_Rule" text="-5 por cada cargo del consejo ocupado por otra facción de la corte. Estas penalizaciones se acumulan." />
     <string id="BC_CourtAdvisorRepresentation_Rule" text="Apoyo de línea base adicional de los asesores asignados para representar a esta facción." />
     <string id="BC_CourtCrownFavor_Rule" text="La Corona favorece a esta facción para el período judicial actual." />
     <string id="BC_CourtCrownFavorsOthers_Rule" text="La Corona favorece otra facción para el término judicial corriente." />
@@ -5316,7 +5316,7 @@
     <string id="BC_CourtRelationUnit" text="relación con el gobernante" />
     <string id="BC_CourtInfluence" text="influencia" />
     <string id="BC_CourtRenown" text="renombre" />
-    <string id="BC_CourtDenars" text="denarios" />
+    <string id="BC_CourtDenars" text="denares" />
     <!-- Elective mandates and elections -->
     <string id="BC_Term_OneYear" text="1 año" />
     <string id="BC_Term_OneYear_Desc" text="Cada soberano elegido recibe un mandato de un año. Las reformas también afectan al gobernante en ejercicio: los términos fijos conservan su inicio original, mientras que un mandato de por vida convertido a un término fijo comienza con la adopción. Un mandato vencido conduce a una elección después de la deliberación." />
@@ -5326,7 +5326,7 @@
     <string id="BC_Term_TenYears_Desc" text="Cada soberano elegido recibe un mandato de diez años. Las reformas también afectan al gobernante en ejercicio: los términos fijos conservan su inicio original, mientras que un mandato de por vida convertido a un término fijo comienza con la adopción. Un mandato vencido conduce a una elección después de la deliberación." />
     <string id="BC_Term_Lifetime" text="Mandato de por vida" />
     <string id="BC_Term_Lifetime_Desc" text="Cada soberano elegido sirve para la vida o hasta la abdicación. Las reformas también afectan al gobernante en ejercicio: los términos fijos conservan su inicio original, mientras que un mandato de por vida convertido a un término fijo comienza con la adopción. Un mandato vencido conduce a una elección después de la deliberación." />
-    <string id="BC_Election_NextDate" text="Próxima elección: {DATE} ( ⁇ {DAYS} días)" />
+    <string id="BC_Election_NextDate" text="Próxima elección: {DATE} (~{DAYS} días)" />
     <string id="BC_Election_Approaching" text="El mandato de {RULER} llega a su fin. Los nobles de {REALM} elegirán su soberano en {DATE}." />
     <string id="BC_Election_PlayerDefeat" text="Los nobles han elegido {RULER} para gobernar {REALM}. Tú retienes tu casa, tus tierras y tus riquezas, y permaneces en el reino como vasallo." />
     <string id="BC_Election_Result" text="Resultado de la elección" />
@@ -5352,7 +5352,7 @@
     <string id="BC_Subinfeudation_ConfirmPossession" text="Le concedo la posesión de {SETTLEMENT_NAME}, sujeto a sus derechos legales existentes." />
     <string id="BC_Subinfeudation_ChooseAnother" text="Debería elegir otro estado." />
     <string id="BC_Subinfeudation_NamePrompt" text="Y que mi juramento sea testificado. Sería un honor si escogiera el nombre de mi nueva casa." />
-    <string id="BC_Subinfeudation_Success" text="Juro que os mantendré estas tierras y prestaré el servicio debido a mi casa." />
+    <string id="BC_Subinfeudation_Success" text="Juro tener estas tierras como tu vasallo y prestar el servicio que debe mi casa.[ib:hip][if:convo_happy]" />
     <string id="BC_Subinfeudation_NotCompleted" text="Como desees. Estoy listo si decide renovar la oferta." />
     <string id="BC_Subinfeudation_TitleUnavailable" text="El título feudal de la baronía no está disponible." />
     <string id="BC_Subinfeudation_NoSelection" text="No se ha seleccionado ningún estado." />
@@ -5364,9 +5364,9 @@
     <string id="BC_Subinfeudation_PossessionHint" text="{SETTLEMENT} se otorgará solo en posesión. Su título legal sigue siendo {LAWFUL_HOLDER}, y las reclamaciones o disputas existentes siguen vigentes. La nueva casa deberá servicio feudal a través de {LIEGE_TITLE}.{RELATION}{COSTS}" />
     <string id="BC_Subinfeudation_UnknownHolder" text="Su titular legal actual" />
     <string id="BC_Subinfeudation_RelationHint" text="{newline}Relación con la nueva casa: +{RELATION_GAIN}." />
-    <string id="BC_Subinfeudation_CostHint" text="{newline}costo: denarios {GOLD} y influencia {INFLUENCE}." />
-    <string id="BC_Subinfeudation_NeedBoth" text="Necesita denarios {GOLD} y la influencia {INFLUENCE}." />
-    <string id="BC_Subinfeudation_NeedGoldAmount" text="Necesita denarios {GOLD}." />
+    <string id="BC_Subinfeudation_CostHint" text="{newline}costo: denares {GOLD} y influencia {INFLUENCE}." />
+    <string id="BC_Subinfeudation_NeedBoth" text="Necesita denares {GOLD} y la influencia {INFLUENCE}." />
+    <string id="BC_Subinfeudation_NeedGoldAmount" text="Necesita denares {GOLD}." />
     <string id="BC_Subinfeudation_NeedInfluenceAmount" text="Necesitas influencia {INFLUENCE}." />
     <string id="BC_Subinfeudation_InvalidParticipants" text="Usted y este compañero no son capaces de establecer una nueva casa vasalla." />
     <string id="BC_Subinfeudation_Caravan" text="Este compañero debe ser relevado del servicio de caravana primero." />
@@ -5375,7 +5375,7 @@
     <string id="BC_Subinfeudation_UnderSiege" text="El asentamiento está bajo asedio." />
     <string id="BC_Subinfeudation_PendingDecision" text="La propiedad del asentamiento está esperando una decisión del reino." />
     <string id="BC_Subinfeudation_ActiveFeud" text="Esta baronía ya está impugnada en una disputa activa." />
-    <string id="BC_Subinfeudation_NeedGold" text="Ya no tienes suficientes dinares para establecer la nueva casa." />
+    <string id="BC_Subinfeudation_NeedGold" text="Ya no tienes suficientes denares para establecer la nueva casa." />
     <string id="BC_Subinfeudation_NeedInfluence" text="Ya no tienes suficiente influencia para establecer la nueva casa." />
     <string id="BC_Subinfeudation_InvalidClanName" text="La nueva casa requiere un nombre válido." />
     <string id="BC_Subinfeudation_ClanCreationFailed" text="No se pudo crear la nueva casa." />
@@ -7001,31 +7001,31 @@
     <string id="BC_EstateInheritance_Treasury" text="una parte del tesoro familiar" />
     <string id="BC_EstateInheritance_More" text="{TITLES} y {COUNT} estados adicionales" />
     <string id="BC_MCM_Group_InternalInstability" text="Inestabilidad interna" />
-    <string id="BC_MCM_InstabilityPreset" text="Inestabilidad preestablecida para aplicar" />
-    <string id="BC_MCM_InstabilityPreset_Hint" text="El estándar usa los valores normales de inestabilidad de Bellum. La reducción hace menos probables los nuevos conflictos internos; el aumento los hace más probables. La selección por sí sola no cambia nada: use Aplicar ajuste preestablecido de inestabilidad. Esta es una plantilla, no un modo de dificultad activa; los controles deslizantes permanecen editables individualmente. Por defecto de Bellum: estándar." />
-    <string id="BC_MCM_InstabilityStandard" text="Norma" />
+    <string id="BC_MCM_InstabilityPreset" text="Preajuste de inestabilidad que se aplicará" />
+    <string id="BC_MCM_InstabilityPreset_Hint" text="Estándar utiliza los valores de inestabilidad normales de Bellum. Inestabilidad reducida hace menos probables los nuevos conflictos internos; Inestabilidad aumentada los hace más probables. Seleccionar una opción no cambia nada por sí solo: utiliza Aplicar preajuste de inestabilidad. Es una plantilla, no un modo de dificultad activo; cada control deslizante se puede seguir editando por separado. Valor predeterminado de Bellum: Estándar." />
+    <string id="BC_MCM_InstabilityStandard" text="Estándar" />
     <string id="BC_MCM_InstabilityReduced" text="Inestabilidad reducida" />
-    <string id="BC_MCM_InstabilityIncreased" text="Aumento de la inestabilidad" />
-    <string id="BC_MCM_ApplyInstabilityPreset" text="Aplicar el ajuste preestablecido de inestabilidad" />
+    <string id="BC_MCM_InstabilityIncreased" text="Inestabilidad aumentada" />
+    <string id="BC_MCM_ApplyInstabilityPreset" text="Aplicar preajuste de inestabilidad" />
     <string id="BC_MCM_Apply" text="Aplicar" />
-    <string id="BC_MCM_ApplyInstabilityPreset_Hint" text="Actualiza solo los nueve controles deslizantes de inestabilidad interna al ajuste preestablecido seleccionado. Otras configuraciones y evaluaciones de conflictos guardadas no se modifican. Los deslizadores siguen siendo editables después; Hecho guarda y Cancela descarta los cambios. El estándar restaura los valores predeterminados de Bellum solo para estos nueve controles deslizantes. Por defecto de Bellum: estándar." />
-    <string id="BC_MCM_InstabilityPresetUnavailable" text="No se puede aplicar el preajuste de inestabilidad. Compruebe el registro de Bellum o ajuste los controles deslizantes manualmente." />
-    <string id="BC_MCM_CourtCrisisMood" text="Umbral del estado de ánimo de la crisis judicial AI" />
-    <string id="BC_MCM_CourtCrisisMood_Hint" text="facción del estado de ánimo de la corte real en o por debajo del cual una facción de AI puede reemplazar su agenda ordinaria con un desafío de coalición. Aumentar el número hacia cero aumenta la inestabilidad; disminuirlo hacia -100 reduce la inestabilidad. Los desafíos de emergencia a -100 usan la oportunidad separada por término. Las opciones de los jugadores y las crisis existentes no cambian. Bellum valor predeterminado: -60." />
-    <string id="BC_MCM_CourtChallengeChance" text="Probabilidad de impugnación del tribunal AI por plazo (%)" />
-    <string id="BC_MCM_CourtChallengeChance_Hint" text="Posibilidad de que una facción de IA de la corte real comience un nuevo desafío de coalición durante un período judicial, compartido por rutas de emergencia ordinarias y -100. Aumentar aumenta la inestabilidad de la coalición; disminuir la reduce. Zero evita nuevos desafíos automáticos. El resultado se guarda hasta el próximo término programado del reino, incluso después de un cambio de configuración o recarga. Por lo tanto, la longitud del término afecta a la frecuencia de reintento. Las opciones de los jugadores, las crisis anunciadas y los requisitos militares no han cambiado. Predeterminado: 100%." />
-    <string id="BC_MCM_HeirChallengeLoyalty" text="AI Heir Challenge Lealtad Umbral" />
-    <string id="BC_MCM_HeirChallengeLoyalty_Hint" text="Los herederos legales con lealtad por debajo de este valor pueden iniciar un desafío de sucesión hereditaria. Aumentar aumenta la inestabilidad del heredero; disminuir lo reduce. Zero evita nuevos desafíos automáticos. Los desafíos de los jugadores, las apelaciones existentes, los requisitos militares y los tiempos de reutilización no han cambiado. Por defecto de Bellum: 25." />
-    <string id="BC_MCM_ElectionChallengeChance" text="AI multiplicador de probabilidad de desafío electoral (%)" />
-    <string id="BC_MCM_ElectionChallengeChance_Hint" text="Escala la oportunidad existente de cada candidato AI perdedor para disputar una elección, con un límite de 100% de probabilidad. El aumento aumenta la inestabilidad electoral; la disminución la reduce. Zero evita desafíos automáticos para nuevas instantáneas electorales. Las opciones de los jugadores, las evaluaciones y decisiones electorales guardadas y los requisitos militares no se han modificado. Bellum valor predeterminado: 100% (oportunidad original)." />
-    <string id="BC_MCM_ClaimFeudThreshold" text="AI Umbral de Iniciación de Feud Privado" />
-    <string id="BC_MCM_ClaimFeudThreshold_Hint" text="Puntuación mínima de reclamación y motivación para que un clan de IA comience o reactive la agitación de la disputa privada. El aumento reduce la inestabilidad de las peleas privadas; la disminución la aumenta. Esto es un umbral, no un porcentaje. Los reclamos de los jugadores, las peleas existentes, el crecimiento de la presión y el calendario de revisión política no han cambiado. Por defecto Bellum: 65." />
-    <string id="BC_MCM_ClaimedRevocationChance" text="Multiplicador de probabilidad de revocación de título reclamado AI (%)" />
-    <string id="BC_MCM_ClaimedRevocationChance_Hint" text="Escala la posibilidad de que un señor de IA elegible exija un título reclamado a su titular. Aumentar aumenta las oportunidades de conflictos de revocación; disminuir los reduce. Cero evita nuevas demandas automáticas de títulos reclamados. La aceptación puede evitar la guerra. Las demandas de los jugadores, los casos existentes y otros sistemas de revocación no cambian. Bellum valor predeterminado: 100% (oportunidad original)." />
-    <string id="BC_MCM_TreasonResistanceChance" text="AI Multiplicador de resistencia a la expulsión espontánea (%)" />
-    <string id="BC_MCM_TreasonResistanceChance_Hint" text="Escala la oportunidad de un señor de la IA expulsado para comenzar una nueva rebelión contra el juicio, después de la personalidad y los controles de respaldo. El aumento aumenta la inestabilidad relacionada con la expulsión; la disminución la reduce. Zero evita la resistencia espontánea, pero los líderes de conspiración existentes aún pueden desafiar la expulsión. No cambia la frecuencia de la acusación, las rebeliones en curso o las opciones de los jugadores. Bellum valor predeterminado: 100% (oportunidad original)." />
-    <string id="BC_MCM_ClientLiberationWillingness" text="Umbral de voluntad de liberación del cliente AI" />
-    <string id="BC_MCM_ClientLiberationWillingness_Hint" text="Voluntad de guerra más resolución de liberación requerida para las propuestas de liberación de la IA y los preparativos de la Corona. Aumentar reduce la inestabilidad de liberación del cliente; disminuir la aumenta. Cero elimina solo este control de voluntad, no el deseo de libertad, poder, influencia, enfriamiento o requisitos de votación. Las acciones de los jugadores, las propuestas existentes y los umbrales de guerra extranjera no se modifican. Por defecto de Bellum: 75." />
+    <string id="BC_MCM_ApplyInstabilityPreset_Hint" text="Actualiza únicamente los nueve controles deslizantes de Inestabilidad interna con el preajuste seleccionado. La configuración restante y las evaluaciones guardadas de conflictos no cambian. Después puedes seguir editando los controles; Listo guarda los cambios y Cancelar los descarta. Estándar restablece los valores predeterminados de Bellum solo para estos nueve controles. Valor predeterminado de Bellum: Estándar." />
+    <string id="BC_MCM_InstabilityPresetUnavailable" text="No se pudo aplicar el preajuste de inestabilidad. Revisa el registro de Bellum o ajusta los controles deslizantes manualmente." />
+    <string id="BC_MCM_CourtCrisisMood" text="Umbral de ánimo para crisis de la corte de la IA" />
+    <string id="BC_MCM_CourtCrisisMood_Hint" text="Ánimo de la facción de la corte igual o inferior al cual una facción de la IA puede sustituir su agenda ordinaria por un desafío de coalición. Acercar el valor a cero aumenta la inestabilidad; acercarlo a -100 la reduce. Los desafíos de emergencia a -100 utilizan la probabilidad independiente por período. Las decisiones del jugador y las crisis existentes no cambian. Valor predeterminado de Bellum: -60." />
+    <string id="BC_MCM_CourtChallengeChance" text="Probabilidad de desafío de la corte de la IA por período (%)" />
+    <string id="BC_MCM_CourtChallengeChance_Hint" text="Probabilidad de que una facción de la corte de la IA inicie un nuevo desafío de coalición durante un período de la corte, compartida por la vía ordinaria y la de emergencia a -100. Aumentarla incrementa la inestabilidad por coaliciones; reducirla la disminuye. Cero impide nuevos desafíos automáticos. El resultado se guarda hasta el siguiente período programado del reino, incluso después de cambiar la configuración o volver a cargar la partida. Por tanto, la duración del período afecta a la frecuencia de los intentos. Las decisiones del jugador, las crisis anunciadas y los requisitos militares no cambian. Valor predeterminado de Bellum: 100%." />
+    <string id="BC_MCM_HeirChallengeLoyalty" text="Umbral de lealtad para desafíos de herederos de la IA" />
+    <string id="BC_MCM_HeirChallengeLoyalty_Hint" text="Los herederos legítimos con una lealtad inferior a este valor pueden iniciar un desafío sucesorio hereditario. Aumentarlo incrementa la inestabilidad por herederos; reducirlo la disminuye. Cero impide nuevos desafíos automáticos de herederos. Los desafíos del jugador, las apelaciones existentes, los requisitos militares y los tiempos de espera no cambian. Valor predeterminado de Bellum: 25." />
+    <string id="BC_MCM_ElectionChallengeChance" text="Multiplicador de impugnaciones electorales de la IA (%)" />
+    <string id="BC_MCM_ElectionChallengeChance_Hint" text="Ajusta la probabilidad existente de que cada candidato derrotado de la IA impugne una elección, con un límite de probabilidad del 100%. Aumentarla incrementa la inestabilidad electoral; reducirla la disminuye. Cero impide desafíos automáticos para nuevos registros de elecciones. Las decisiones del jugador, las evaluaciones y decisiones electorales guardadas y los requisitos militares no cambian. Valor predeterminado de Bellum: 100% (probabilidad original)." />
+    <string id="BC_MCM_ClaimFeudThreshold" text="Umbral para iniciar disputas privadas de la IA" />
+    <string id="BC_MCM_ClaimFeudThreshold_Hint" text="Puntuación mínima de reclamación y motivación para que un clan de la IA inicie o reactive la agitación de una disputa privada. Aumentarla reduce la inestabilidad por disputas privadas; reducirla la incrementa. Es un umbral, no un porcentaje. Las reclamaciones del jugador, las disputas existentes, el aumento de la presión y el calendario de revisión política no cambian. Valor predeterminado de Bellum: 65." />
+    <string id="BC_MCM_ClaimedRevocationChance" text="Multiplicador de revocación de títulos reclamados por la IA (%)" />
+    <string id="BC_MCM_ClaimedRevocationChance_Hint" text="Ajusta la probabilidad de que un noble apto de la IA exija al titular la devolución de un título reclamado. Aumentarla incrementa las oportunidades de conflictos por revocación; reducirla las disminuye. Cero impide nuevas exigencias automáticas de títulos reclamados. Aceptar la exigencia aún puede evitar la guerra. Las exigencias del jugador, los casos existentes y otros sistemas de revocación no cambian. Valor predeterminado de Bellum: 100% (probabilidad original)." />
+    <string id="BC_MCM_TreasonResistanceChance" text="Multiplicador de resistencia espontánea a expulsiones de la IA (%)" />
+    <string id="BC_MCM_TreasonResistanceChance_Hint" text="Ajusta la probabilidad de que un noble expulsado de la IA inicie una nueva rebelión contra la sentencia, después de comprobar su personalidad y sus apoyos. Aumentarla incrementa la inestabilidad por expulsiones; reducirla la disminuye. Cero impide la resistencia espontánea, pero los líderes de conspiraciones existentes aún pueden desafiar la expulsión. No cambia la frecuencia de las acusaciones, las rebeliones en curso ni las decisiones del jugador. Valor predeterminado de Bellum: 100% (probabilidad original)." />
+    <string id="BC_MCM_ClientLiberationWillingness" text="Umbral de voluntad de independencia de reinos dependientes de la IA" />
+    <string id="BC_MCM_ClientLiberationWillingness_Hint" text="Voluntad bélica más determinación de independencia necesarias para las propuestas de independencia de la IA y los preparativos de la Corona. Aumentar el valor reduce la inestabilidad por independencia de reinos dependientes; reducirlo la incrementa. Cero elimina solo esta comprobación de disposición, no los requisitos de deseo de independencia, poder, influencia, tiempo de espera o votación. Las acciones del jugador, las propuestas existentes y los umbrales de guerras extranjeras no cambian. Valor predeterminado de Bellum: 75." />
     <string id="BC_RoyalPeaceRestriction" text="La paz real está en vigor. La Corona ha prohibido las peleas privadas, las guerras privadas y las revocaciones de títulos reclamados en todo {REALM}. Duración restante: días {DAYS}. Su reclamación se conserva." />
     <string id="BC_RoyalPeaceSettling" text="Un decreto anterior de la Paz Real todavía se está resolviendo." />
     <string id="BC_RealmPeacePreview" text="Poner fin a todas las disputas privadas {FEUDS} y {WARS} guerras privadas en {REALM}. costo: influencia de {COST} ({PRICING}). Paz Real prohíbe nuevos conflictos privados durante un año. Casas involucradas: relaciones {INVOLVED}; otras casas nobles: {OTHERS}. La deuda de Tyrant reduce a la mitad la ganancia de influencia diaria positiva durante un año." />

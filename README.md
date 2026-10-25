@@ -1,6 +1,6 @@
 # Bellum Civile: traducción al español latinoamericano
 
-Traducción del `strings.xml` proporcionado por el usuario: 6,963 entradas. Traducción automática local con ajustes terminológicos y revisión de muestras; no tiene revisión humana completa ni validación dentro del juego. El usuario utiliza Bannerlord **1.4.x**; faltan el parche exacto y la versión del mod original.
+Traducción del `strings.xml` proporcionado por el usuario: 6,963 entradas. Traducción automática local con ajustes terminológicos, revisión de las 228 entradas de configuración y revisión de muestras adicionales; no tiene revisión humana completa ni validación dentro del juego. El usuario utiliza Bannerlord **1.4.x**; faltan el parche exacto y la versión del mod original.
 
 ## Descarga e instalación manual
 
@@ -15,7 +15,7 @@ Traducción del `strings.xml` proporcionado por el usuario: 6,963 entradas. Trad
 
 4. Mantén activado el mod original y selecciona **Español (LA)** en las opciones del juego. Este paquete no añade un módulo independiente al launcher.
 
-La estructura coincide con el registro de idioma de [Diplomacy v1.5.5](https://github.com/DiplomacyTeam/Bannerlord.Diplomacy/releases/tag/v1.5.5), cuya publicación declara soporte para Bannerlord 1.4.0–1.4.8: el registro de idioma está dentro de `SP` y enumera `strings_es-419.xml` sin anteponer otra vez la carpeta. Hay ejemplos antiguos con otra convención de rutas; confirmar con la versión concreta del juego si los textos no cargan.
+El registro de idioma está dentro de `SP` y utiliza `SP/strings_es-419.xml`, siguiendo el prefijo de carpeta del paquete portugués de Bellum Civile proporcionado por el usuario. Sustituye la referencia anterior de archivos hermanos tomada de Diplomacy. Se mantiene el identificador `Español (LA)` coherente en ambos XML. La carga dentro de la versión concreta del juego sigue pendiente de comprobar.
 
 ## Corrección del paquete inicial
 
@@ -25,7 +25,7 @@ El ZIP anterior usaba `ES` y el ID `Español`. Si lo instalaste, retira **solo l
 
 ## Comprobaciones
 
-Los XML se pueden analizar; el identificador de idioma coincide; las rutas internas y ambos ZIP fueron verificados. Las 6,963 cadenas conservaron sus IDs y textos durante la corrección de metadatos. Que estos controles pasen no demuestra que Bannerlord cargue la traducción: esa prueba y la revisión lingüística completa siguen pendientes.
+Los XML se pueden analizar; el identificador de idioma coincide; las rutas internas y ambos ZIP fueron verificados. Las 6,963 cadenas conservan sus IDs. La revisión posterior también comprobó variables, etiquetas de animación, valores numéricos, signos y rutas internas; corrigió 289 textos respecto a la edición anterior. Que estos controles pasen no demuestra que Bannerlord cargue la traducción: esa prueba y la revisión lingüística completa siguen pendientes.
 
 La traducción corresponde únicamente al archivo proporcionado. No se ha comprobado si faltan otros archivos de localización del mod.
 
@@ -34,3 +34,7 @@ Para futuras traducciones, consultar [la guía y sus fuentes](GUIA_TRADUCCIONES_
 ## Otras traducciones
 
 - [Affairs of Calradia — Español (LA), descarga e instalación](AffairsOfCalradia/README.md).
+
+## Revisión a partir del paquete portugués
+
+[Informe de revisión](REVISION_BELLUM_PT_BR.md). El paquete portugués no incluye `SubModule.xml`, contiene 2,346 entradas y presenta una discrepancia entre el idioma del registro y el de las cadenas. Se utilizó como referencia de empaquetado, sin copiar su contenido ni reducir la cobertura de nuestro archivo inglés. Las correcciones y comprobaciones de nuestra edición están registradas en `validacion_bellum.json`; `bellum_mcm_revisado.json` conserva las 228 entradas de configuración revisadas.

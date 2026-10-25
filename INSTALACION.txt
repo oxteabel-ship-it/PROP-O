@@ -40,3 +40,13 @@ muestras; no tiene revisión humana completa.
 
 DESCARGAS Y ACTUALIZACIONES
 https://github.com/oxteabel-ship-it/PROP-O
+
+REVISIÓN DEL PAQUETE PORTUGUÉS
+Se revisaron las 228 entradas de configuración y se corrigieron errores
+de terminología, signos numéricos y etiquetas de animación de diálogos.
+El registro usa SP/strings_es-419.xml, siguiendo el prefijo de carpeta
+del ejemplo portugués, con el idioma Español (LA) en ambos XML.
+Para actualizar nuestra traducción, vuelve a extraer este ZIP dentro
+de BellumCivile y acepta reemplazar sus dos archivos dentro de SP.
+Esta revisión no sustituye una prueba dentro del juego ni una revisión
+lingüística completa de las 6,963 entradas.
