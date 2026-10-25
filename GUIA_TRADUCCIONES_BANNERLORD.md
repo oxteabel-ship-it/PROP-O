@@ -4,7 +4,7 @@ Guía de trabajo para traducciones al español latinoamericano. Consultada el 24
 
 ## 1. Identificar el contenido y las versiones
 
-Registrar la versión de Bannerlord y del mod original. Examinar sus archivos de `ModuleData/Languages`, el idioma inglés de referencia, `SubModule.xml` y otras cadenas localizables incluidas en XML o en código. Un solo `strings.xml` no demuestra que se haya localizado todo el mod.
+Registrar la versión de Bannerlord y del mod original. En este proyecto el usuario confirmó **Bannerlord 1.4.x**; aún no indicó el parche exacto ni la versión del mod. Examinar sus archivos de `ModuleData/Languages`, el idioma inglés de referencia, `SubModule.xml` y otras cadenas localizables incluidas en XML o en código. Un solo `strings.xml` no demuestra que se haya localizado todo el mod.
 
 Las cadenas del código necesitan un identificador, normalmente mediante `TextObject` y un prefijo como `{=ID}`. Un XML de traducción no corrige por sí solo textos incrustados en una DLL sin soporte de localización. Eso requiere trabajo separado sobre el código del mod.
 
@@ -124,7 +124,7 @@ Seleccionar `Español (LA)` y comprobar textos inequívocos del mod: menús, opc
 
 Si sigue apareciendo inglés, comprobar primero la instalación, la versión, el idioma seleccionado, el registro de archivos y posibles traducciones que sobrescriban los mismos IDs. Una ventana que abre sin error no demuestra que la traducción se haya cargado.
 
-Aquí no se ha ejecutado Bannerlord. La compatibilidad del paquete dentro del juego sigue pendiente, incluida la convención de rutas de la versión concreta del usuario.
+Aquí no se ha ejecutado Bannerlord. Para la familia 1.4.x indicada por el usuario, se contrastaron el ID `Español (LA)`, `es-SP` y el registro de archivos hermanos con el archivo español de Diplomacy v1.5.5. Esa publicación declara soporte para Bannerlord 1.4.0–1.4.8. Los tres criterios coinciden con nuestro paquete. La comprobación dentro del juego y la compatibilidad con la versión concreta del mod original siguen pendientes.
 
 ## 8. Preparar una publicación como las de Nexus Mods
 
@@ -133,6 +133,8 @@ Indicar el mod requerido y su versión, la versión del juego, el idioma selecci
 Enlazar al mod original, acreditar su autoría y comprobar sus condiciones antes de publicar archivos de terceros. No incluir DLLs u otros recursos del mod original para distribuir una traducción de textos. Mantener un historial de cambios y describir los problemas conocidos.
 
 ## Fuentes consultadas
+
+- [Diplomacy v1.5.5: publicación con soporte declarado para Bannerlord 1.4.0–1.4.8](https://github.com/DiplomacyTeam/Bannerlord.Diplomacy/releases/tag/v1.5.5) y [su registro de idioma español](https://github.com/DiplomacyTeam/Bannerlord.Diplomacy/blob/v1.5.5/src/Bannerlord.Diplomacy/_Module/ModuleData/Languages/SP/language_data.xml): referencia comprobada al recibir la versión del usuario.
 
 - [Documentación comunitaria: Localization](https://docs.bannerlordmodding.com/_csharp-api/localization/): TextObject, IDs globales, variables y condicionales; advierte que IDs de idioma distintos no se fusionan automáticamente. Incluye información de versiones antiguas.
 - [BannerlordModding.LT: Localization](https://docs.bannerlordmodding.lt/modding/localization/): estructura de carpetas, registro y entidades XML; muestra una convención anterior de rutas.

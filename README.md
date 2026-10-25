@@ -1,6 +1,6 @@
 # Bellum Civile: traducción al español latinoamericano
 
-Traducción del `strings.xml` proporcionado por el usuario: 6,963 entradas. Traducción automática local con ajustes terminológicos y revisión de muestras; no tiene revisión humana completa ni validación dentro del juego. No se ha confirmado la versión exacta del mod ni del juego del usuario.
+Traducción del `strings.xml` proporcionado por el usuario: 6,963 entradas. Traducción automática local con ajustes terminológicos y revisión de muestras; no tiene revisión humana completa ni validación dentro del juego. El usuario utiliza Bannerlord **1.4.x**; faltan el parche exacto y la versión del mod original.
 
 ## Descarga e instalación manual
 
@@ -15,7 +15,7 @@ Traducción del `strings.xml` proporcionado por el usuario: 6,963 entradas. Trad
 
 4. Mantén activado el mod original y selecciona **Español (LA)** en las opciones del juego. Este paquete no añade un módulo independiente al launcher.
 
-La estructura sigue el ejemplo actual de Diplomacy: el registro de idioma está dentro de `SP` y enumera `strings_es-419.xml` sin anteponer otra vez la carpeta. Hay ejemplos antiguos con otra convención de rutas; confirmar con la versión concreta del juego si los textos no cargan.
+La estructura coincide con el registro de idioma de [Diplomacy v1.5.5](https://github.com/DiplomacyTeam/Bannerlord.Diplomacy/releases/tag/v1.5.5), cuya publicación declara soporte para Bannerlord 1.4.0–1.4.8: el registro de idioma está dentro de `SP` y enumera `strings_es-419.xml` sin anteponer otra vez la carpeta. Hay ejemplos antiguos con otra convención de rutas; confirmar con la versión concreta del juego si los textos no cargan.
 
 ## Corrección del paquete inicial
 
