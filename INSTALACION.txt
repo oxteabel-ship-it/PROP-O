@@ -1,0 +1,42 @@
+TRADUCCIÓN DE BELLUM CIVILE AL ESPAÑOL LATINOAMERICANO
+Versión objetivo del juego: Bannerlord 1.4.x.
+
+INSTALACIÓN MANUAL
+1. Cierra el juego y descomprime este ZIP.
+2. Abre la carpeta de instalación de Bannerlord. En Steam:
+   clic derecho sobre el juego > Administrar > Ver archivos locales.
+3. Entra en Modules y abre la carpeta del mod Bellum Civile.
+   Es la carpeta que contiene su archivo SubModule.xml.
+4. Copia la carpeta ModuleData de este ZIP dentro de esa carpeta
+   de Bellum Civile. Acepta combinar carpetas. No copies el ZIP
+   directamente ni crees una carpeta ModuleData dentro de otra ModuleData.
+5. Los archivos deben quedar en:
+   CarpetaDelMod/ModuleData/Languages/SP/language_data.xml
+   CarpetaDelMod/ModuleData/Languages/SP/strings_es-419.xml
+6. Mantén activado Bellum Civile en el launcher. Esta traducción no
+   añade una casilla ni un módulo independiente.
+7. Selecciona Español (LA) en las opciones del juego y reinícialo.
+
+SI INSTALASTE NUESTRO PAQUETE ANTERIOR
+En la carpeta del mod, retira únicamente language_data.xml y
+strings_es-419.xml de ModuleData/Languages/ES que procedan del paquete
+anterior. No elimines otros archivos de idioma.
+Si tienes una traducción distinta instalada, haz una copia de sus
+archivos antes de sustituir cualquier archivo con el mismo nombre.
+
+DESINSTALACIÓN
+Retira únicamente los dos archivos de esta traducción de Languages/SP.
+Si reemplazaste archivos anteriores, restaura tu copia de seguridad.
+
+ALCANCE Y VALIDACIÓN
+Incluye las 6,963 entradas del strings.xml proporcionado por el usuario.
+No se ha confirmado si el mod contiene otros archivos que traducir.
+Se comprobaron los XML, sus IDs, variables, rutas y la integridad del ZIP.
+La estructura coincide con una referencia que declara soporte para
+Bannerlord 1.4.x, pero no se ha probado en el juego. La versión exacta
+del mod original está pendiente de confirmar.
+Es una traducción automática con ajustes terminológicos y revisión de
+muestras; no tiene revisión humana completa.
+
+DESCARGAS Y ACTUALIZACIONES
+https://github.com/oxteabel-ship-it/PROP-O
