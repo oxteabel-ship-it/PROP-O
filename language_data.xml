@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData id="Español" name="Español (Latinoamérica)" subtitle_extension="es" supported_iso="es,spa,es-419,es-mx" under_development="false">
+  <LanguageFile xml_path="ES/strings_es-419.xml" />
+</LanguageData>
